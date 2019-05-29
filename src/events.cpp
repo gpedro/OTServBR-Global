@@ -404,33 +404,33 @@ void Events::eventPartyOnShareExperience(Party* party, uint64_t& exp)
 		// Party:onShareExperience(exp) or Party.onShareExperience(self, exp)
 		if (info.partyOnShareExperience == -1) {
 		return;
-		
+
 	}
-	
+
 		if (!scriptInterface.reserveScriptEnv()) {
 		std::cout << "[Error - Events::eventPartyOnShareExperience] Call stack overflow" << std::endl;
 		return;
-		
+
 	}
-	
+
 		ScriptEnvironment * env = scriptInterface.getScriptEnv();
 	env->setScriptId(info.partyOnShareExperience, &scriptInterface);
-	
+
 		lua_State * L = scriptInterface.getLuaState();
 	scriptInterface.pushFunction(info.partyOnShareExperience);
-	
+
 		LuaScriptInterface::pushUserdata<Party>(L, party);
 	LuaScriptInterface::setMetatable(L, -1, "Party");
-	
+
 		lua_pushnumber(L, exp);
-	
+
 		if (scriptInterface.protectedCall(L, 2, 1) != 0) {
 		LuaScriptInterface::reportError(nullptr, LuaScriptInterface::popString(L));
-		
+
 	} else {
 		exp = LuaScriptInterface::getNumber<uint64_t>(L, -1);
 		lua_pop(L, 1);
-		
+
 	}
 
 		scriptInterface.resetScriptEnv();

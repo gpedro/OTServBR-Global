@@ -256,7 +256,7 @@ class LuaScriptInterface
 
 		static std::string popString(lua_State* L);
 		static int32_t popCallback(lua_State* L);
-		
+
 		//Autoloot
 		static int luaPlayerAddAutoLootItem(lua_State* L);
         static int luaPlayerRemoveAutoLootItem(lua_State* L);
@@ -477,7 +477,7 @@ class LuaScriptInterface
 
 		static int luaSendChannelMessage(lua_State* L);
 		static int luaSendGuildChannelMessage(lua_State* L);
-		
+
 		static int luaGetPreyMonsters(lua_State* L);
 
 #ifndef LUAJIT_VERSION
@@ -737,7 +737,7 @@ class LuaScriptInterface
 		static int luaContainerHasItem(lua_State* L);
 		static int luaContainerAddItem(lua_State* L);
 		static int luaContainerAddItemEx(lua_State* L);
-		
+
 		//static int luaContainerGetCorpseOwner(lua_State* L);
 
 		// Teleport
@@ -1037,7 +1037,7 @@ class LuaScriptInterface
 		static int luaPlayerSetExpBoostStamina(lua_State* L);
 
 		static int luaPlayerGetIdleTime(lua_State* L);
-		
+
 		/*static int luaPlayerAddAutoLootItem(lua_State* L);
 		static int luaPlayerRemoveAutoLootItem(lua_State* L);
 		static int luaPlayerGetAutoLootItem(lua_State* L);
@@ -1275,7 +1275,7 @@ class LuaScriptInterface
 
 		static int luaMonsterTypeIsAttackable(lua_State* L);
 		static int luaMonsterTypeIsConvinceable(lua_State* L);
-		static int luaMonsterTypeIsSummonable(lua_State* L); 
+		static int luaMonsterTypeIsSummonable(lua_State* L);
 		static int luaMonsterTypeIsIllusionable(lua_State* L);
 		static int luaMonsterTypeIsHostile(lua_State* L);
 		static int luaMonsterTypeIsPushable(lua_State* L);
@@ -1304,10 +1304,10 @@ class LuaScriptInterface
 
 		static int luaMonsterTypeGetAttackList(lua_State* L);
 		static int luaMonsterTypeAddAttack(lua_State* L);
-		
+
 		static int luaMonsterTypeGetDefenseList(lua_State* L);
 		static int luaMonsterTypeAddDefense(lua_State* L);
-		
+
 		static int luaMonsterTypeGetElementList(lua_State* L);
 		static int luaMonsterTypeAddElement(lua_State* L);
 
@@ -1315,13 +1315,13 @@ class LuaScriptInterface
 
 		static int luaMonsterTypeGetVoices(lua_State* L);
 		static int luaMonsterTypeAddVoice(lua_State* L);
-		
+
 		static int luaMonsterTypeGetLoot(lua_State* L);
 		static int luaMonsterTypeAddLoot(lua_State* L);
 
 		static int luaMonsterTypeGetCreatureEvents(lua_State* L);
 		static int luaMonsterTypeRegisterEvent(lua_State* L);
-		
+
 		static int luaMonsterTypeSetScriptFile(lua_State* L);
 
 		static int luaMonsterTypeGetSummonList(lua_State* L);
@@ -1410,7 +1410,7 @@ class LuaScriptInterface
 
 		static int luaSpellIsPremium(lua_State* L);
 		static int luaSpellIsLearnable(lua_State* L);
-		
+
 		// Actions
 		static int luaCreateAction(lua_State* L);
 		static int luaActionOnUse(lua_State* L);
@@ -1456,7 +1456,7 @@ class LuaScriptInterface
 		static int luaGlobalEventTime(lua_State* L);
 		static int luaGlobalEventInterval(lua_State* L);
 
-		
+
 		// Weapon
 		static int luaCreateWeapon(lua_State* L);
 		static int luaWeaponId(lua_State* L);

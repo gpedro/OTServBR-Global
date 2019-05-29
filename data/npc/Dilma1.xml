@@ -5,9 +5,9 @@
 	<parameters>
 		<parameter key="module_shop" value="1" />
 		<parameter key="shop_buyable" value="
-			
-			
+
+
 			blood,2006,10000,2;" />
-		
+
 	</parameters>
 </npc>

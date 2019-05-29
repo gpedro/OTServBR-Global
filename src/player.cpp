@@ -206,7 +206,7 @@ void Player::addConditionSuppressions(uint32_t conditions)
 	conditionSuppressions |= conditions;
 }
 
-void Player::removeConditionSuppressions(uint32_t conditions) 
+void Player::removeConditionSuppressions(uint32_t conditions)
 {
 	conditionSuppressions &= ~conditions;
 }
@@ -718,13 +718,13 @@ bool Player::canWalkthrough(const Creature* creature) const
 		return true;
 	}
 
-	if (player) {		
+	if (player) {
 	const Tile* playerTile = player->getTile();
 	if (!playerTile || (!playerTile->hasFlag(TILESTATE_NOPVPZONE) && !playerTile->hasFlag(TILESTATE_PROTECTIONZONE) && player->getLevel() > static_cast<uint32_t>(g_config.getNumber(ConfigManager::PROTECTION_LEVEL)))) {
 		return false;
 	}
-		
-		
+
+
 		const Item* playerTileGround = playerTile->getGround();
 		if (!playerTileGround || !playerTileGround->hasWalkStack()) {
 			return false;
@@ -4027,7 +4027,7 @@ void Player::addUnjustifiedDead(const Player* attacked)
 			skullTicks = static_cast<int64_t>(g_config.getNumber(ConfigManager::RED_SKULL_DURATION)) * 24 * 60 * 60 * 1000;
 		}
 	}
-                                                                       
+
 	sendUnjustifiedPoints();
 }
 
@@ -4314,7 +4314,7 @@ void Player::sendUnjustifiedPoints()
 
 		auto dayMax = ((isRed ? 2 : 1) * g_config.getNumber(ConfigManager::DAY_KILLS_TO_RED));
 		auto weekMax = ((isRed ? 2 : 1) * g_config.getNumber(ConfigManager::WEEK_KILLS_TO_RED));
-		auto monthMax = ((isRed ? 2 : 1) * g_config.getNumber(ConfigManager::MONTH_KILLS_TO_RED));		
+		auto monthMax = ((isRed ? 2 : 1) * g_config.getNumber(ConfigManager::MONTH_KILLS_TO_RED));
 
 		uint8_t dayProgress = std::min(std::round(dayKills / dayMax * 100), 100.0);
 		uint8_t weekProgress = std::min(std::round(weekKills / weekMax * 100), 100.0);

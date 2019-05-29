@@ -66,7 +66,7 @@ class Events
 		int32_t playerOnDeEquipImbuement = -1;
 		int32_t playerOnRequestQuestLog = -1;
 		int32_t playerOnRequestQuestLine = -1;
-		int32_t playerOnStorageUpdate = -1;		
+		int32_t playerOnStorageUpdate = -1;
 		int32_t playerOnRemoveCount = -1;
 
 		// Monster

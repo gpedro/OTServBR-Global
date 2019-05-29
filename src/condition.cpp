@@ -511,10 +511,10 @@ void ConditionAttributes::endCondition(Creature* creature)
 			player->sendStats();
 		}
 	}
-	
+
 		if (disableDefense) {
 		creature->setUseDefense(true);
-		
+
 	}
 }
 

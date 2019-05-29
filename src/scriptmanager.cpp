@@ -72,7 +72,7 @@ bool ScriptingManager::loadScriptSystems()
 		std::cout << "> ERROR: Unable to load lua libs!" << std::endl;
 		return false;
 	}
-	
+
 	g_chat = new Chat();
 
 	g_weapons = new Weapons();

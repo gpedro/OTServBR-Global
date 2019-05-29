@@ -248,7 +248,7 @@ void Spawn::checkSpawn()
 		}
 
 		spawnBlock_t& sb = it.second;
-		
+
 		uint32_t minutes = g_game.getLightHour();
 		bool isday = false;
 		if (minutes >= ((6 * 60) + 30) && minutes <= ((17 * 60) + 30))
@@ -258,7 +258,7 @@ void Spawn::checkSpawn()
 			sb.lastSpawn = OTSYS_TIME();
 			continue;
 		}
-		
+
 		if (OTSYS_TIME() >= sb.lastSpawn + sb.interval) {
 			if (sb.mType->info.isBlockable && findPlayer(sb.pos)) {
 				sb.lastSpawn = OTSYS_TIME();

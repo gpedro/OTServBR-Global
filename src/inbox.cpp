@@ -31,7 +31,7 @@ ReturnValue Inbox::queryAdd(int32_t, const Thing& thing, uint32_t,
 		uint32_t flags, Creature*) const
 	{
 	int32_t addCount = 0;
-	
+
 	if (!hasBitSet(FLAG_NOLIMIT, flags)) {
 		return RETURNVALUE_CONTAINERNOTENOUGHROOM;
 	}
@@ -48,7 +48,7 @@ ReturnValue Inbox::queryAdd(int32_t, const Thing& thing, uint32_t,
 	if (!item->isPickupable()) {
 		return RETURNVALUE_CANNOTPICKUP;
 	}
-	
+
 	if (item->getTopParent() != this) { //MY
 		if (const Container* container = item->getContainer()) {
 			addCount = container->getItemHoldingCount() + 1;

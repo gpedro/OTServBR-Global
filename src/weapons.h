@@ -54,7 +54,7 @@ class Weapons final : public BaseEvents
 
 		bool registerLuaEvent(Weapon* event);
 		void clear(bool fromLua) override final;
-		
+
 	protected:
 		LuaScriptInterface& getScriptInterface() final;
 		std::string getScriptBaseName() const final;
@@ -101,21 +101,21 @@ class Weapon : public Event
 		void setRequiredLevel(uint32_t reqlvl) {
 			level = reqlvl;
 		}
-		
+
 		uint32_t getReqMagLv() const {
 			return magLevel;
 		}
 		void setRequiredMagLevel(uint32_t reqlvl) {
 			magLevel = reqlvl;
 		}
-		
+
 		bool isPremium() const {
 			return premium;
 		}
 		void setNeedPremium(bool prem) {
 			premium = prem;
 		}
-		
+
 		bool isWieldedUnproperly() const {
 			return wieldUnproperly;
 		}
@@ -287,7 +287,7 @@ class WeaponWand final : public Weapon
 		int32_t getWeaponDamage(const Player* player, const Creature* target, const Item* item, bool maxDamage = false) const final;
 		int32_t getElementDamage(const Player*, const Creature*, const Item*, int32_t, CombatType_t) const final { return 0; }
 		CombatType_t getElementType() const final { return COMBAT_NONE; }
-		
+
 		void setMinChange(int32_t change) {
 			minChange = change;
 		}

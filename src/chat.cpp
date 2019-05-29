@@ -306,14 +306,14 @@ bool Chat::load()
 			ChatChannel& channel = it->second;
 			channel.publicChannel = isPublic;
 			channel.name = channelName;
-			
+
 				if (scriptAttribute) {
 				if (scriptInterface.loadFile("data/chatchannels/scripts/" + std::string(scriptAttribute.as_string())) == 0) {
 					channel.onSpeakEvent = scriptInterface.getEvent("onSpeak");
 					channel.canJoinEvent = scriptInterface.getEvent("canJoin");
 					channel.onJoinEvent = scriptInterface.getEvent("onJoin");
 					channel.onLeaveEvent = scriptInterface.getEvent("onLeave");
-					
+
 				} else {
 					std::cout << "[Warning - Chat::load] Can not load script: " << scriptAttribute.as_string() << std::endl;
 				}
@@ -326,7 +326,7 @@ bool Chat::load()
 		}
 		ChatChannel channel(channelId, channelName);
 		channel.publicChannel = isPublic;
-		
+
 			if (scriptAttribute) {
 			if (scriptInterface.loadFile("data/chatchannels/scripts/" + std::string(scriptAttribute.as_string())) == 0) {
 				channel.onSpeakEvent = scriptInterface.getEvent("onSpeak");

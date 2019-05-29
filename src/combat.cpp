@@ -627,7 +627,7 @@ void Combat::combatTileEffects(const SpectatorHashSet& spectators, Creature* cas
 						itemId = ITEM_MAGICWALL_SAFE;
 					} else if (itemId == ITEM_WILDGROWTH) {
 						itemId = ITEM_WILDGROWTH_SAFE;
-					}	
+					}
 				} else if (itemId == ITEM_FIREFIELD_PVP_FULL || itemId == ITEM_POISONFIELD_PVP || itemId == ITEM_ENERGYFIELD_PVP || itemId == ITEM_MAGICWALL || itemId == ITEM_WILDGROWTH) {
 					casterPlayer->addInFightTicks();
 				}

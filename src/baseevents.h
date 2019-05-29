@@ -43,13 +43,13 @@ class Event
 		bool isScripted() const {
 			return scripted;
 		}
-		
+
 		bool scripted = false;
 		bool fromLua = false;
-		
+
 	protected:
 		virtual std::string getScriptEventName() const = 0;
-		
+
 		int32_t scriptId = 0;
 		LuaScriptInterface* scriptInterface = nullptr;
 };

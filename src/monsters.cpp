@@ -125,7 +125,7 @@ void MonsterType::createLoot(Container* corpse)
                 if (owner && owner->getAutoLootItem(item->getID()) && (g_config.getNumber(ConfigManager::AUTOLOOT_MODE) == 1)) {
                     g_game.internalPlayerAddItem(owner, item, true, CONST_SLOT_WHEREEVER);
                     autolooted = autolooted + ", " + item->getNameDescription();
-					
+
                 } else if (g_game.internalAddItem(corpse, item) != RETURNVALUE_NOERROR) {
                     corpse->internalAddThing(item);
                 }
@@ -153,7 +153,7 @@ void MonsterType::createLoot(Container* corpse)
             }
 			ss << lootMsg;
             //
-           
+
             if (owner->getParty()) {
             //autoloot
                 ss << " by " << owner->getName();
@@ -172,7 +172,7 @@ void MonsterType::createLoot(Container* corpse)
         } else {
             owner->sendTextMessage(MESSAGE_LOOT, ss.str());
         }
-		
+
     }
 if (g_config.getNumber(ConfigManager::AUTOLOOT_MODE) == 2) {
 		int32_t act = 500;

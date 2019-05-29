@@ -8,7 +8,7 @@
 			stone skin amulet,2197,5000,5;
 			rusty,9930,50;
 			brown,2789,6" />
-		<parameter key="shop_sellable" value="		
+		<parameter key="shop_sellable" value="
 		yellow gem,2154,1000;
 		violet gem,2153,10000;
 		red gem, 2156,1000;
@@ -24,7 +24,7 @@
 		Shamanic Mask,24848,2000;
 		Rift Shield, 25382, 40000;
 		Ogre Ear Stud,24844,180;
-		Ogre Nose Ring,24845,210;		
+		Ogre Nose Ring,24845,210;
 		Ogre Klubba,24827,2500;
 		RiftLance, 25383, 30000;
 		Ogre Ear Stud,24844,180;
@@ -33,11 +33,11 @@
 			Shamanic Talisman,24840,200;
 			Skull Fetish,24847,250;
 			Some Grimeleech Wings,25386,1200;
-			Vexclaw Talon,25384,1100;			
+			Vexclaw Talon,25384,1100;
 		dms,22533,400;
 		dms,22535,600;
 		dms,22532,700;
-		dms,22534,390;			
+		dms,22534,390;
 		dms,11355,12000;
 		dms,2149,250;
 		dms,2147,250;
@@ -46,9 +46,9 @@
 		dms,9970,200;
 		dms,2145,200;
 		dms,2143,100;
-		dms,2144,200;		
+		dms,2144,200;
 		dms,8871,6000;
-		dms,8870,1000;		
+		dms,8870,1000;
 		dms,8921,1500;
 		dms,18412,6500;
 		dms,2183,3000;
@@ -83,9 +83,9 @@
 		dms,11323,500;
 		dms,11302,45000;
 		dms,11304,14000;
-		dms,11303,5000;		
+		dms,11303,5000;
 		dms,11307,30000;
-		dms,11331,150;			
+		dms,11331,150;
 		dms,2492,40000;
 		bootshaste,2195,30000;
 		wandinferno,2187,3000;
@@ -104,7 +104,7 @@
 		poisoned,23573,110;
 		poisoned,23571,140;
 		necromantic,23567,390;
-		Acorn,11213,10;		
+		Acorn,11213,10;
 		 Legs,23539,11000;
 		   axe,2386,7;
 		   Axe,2378,80;
@@ -120,15 +120,15 @@
 		   Sword,2392,1000;
 		   Chain,23541,5000;
 		   Amulet,23554,2000;
-		   Glooth Axe,23551,1500;		   
-		    Glooth Blade,23550,1500;		   
-		    Glooth cap,23535,7000;		   
-		    Glooth Club,23549,1500;		   
-		    Glooth Whip,23543,2500;		   
-		    Halberd,2381,400;		   
-		    Heat Core,23538,10000;		   
-		    Metal Bat,23542,9000;		   
-		    Metal Spats,23540,2000;			
+		   Glooth Axe,23551,1500;
+		    Glooth Blade,23550,1500;
+		    Glooth cap,23535,7000;
+		    Glooth Club,23549,1500;
+		    Glooth Whip,23543,2500;
+		    Halberd,2381,400;
+		    Heat Core,23538,10000;
+		    Metal Bat,23542,9000;
+		    Metal Spats,23540,2000;
 		   Mino Lance,23545,7000;
 		   Mino Shield,23546,3000;
 		   Moohtah Plate,23537,6000;
@@ -137,7 +137,7 @@
 		   Rubber Cap,23536,11000;
 		   War Hammer,2391,470;
 		   Steel Helmet,2457,293;
-		   
+
 					Antlers,11214,50;
 					Ape Fur,5883,120;
 					Badger Fur,3860,15;
@@ -436,7 +436,7 @@
 					Wood,5901,5;
 					Wool,11236,15;
 					Scale,10582,400;
-					Talisman,10561,265;		
+					Talisman,10561,265;
 		trophy,7398,500;
 		trophy,11315,15000;
 		trophy,11336,8000;
@@ -446,7 +446,7 @@
 		trophy,7394,3000;
 		trophy,7393,40000;
 		trophy,7396,20000;
-		trophy,7399,10000;	
+		trophy,7399,10000;
 			closed trap,2578,75;
 			crowbar,2416,50;
 			fishing rod,2580,40;

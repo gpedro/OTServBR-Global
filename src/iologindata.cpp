@@ -667,7 +667,7 @@ bool IOLoginData::loadPlayer(Player* player, DBResult_ptr result)
 			}
 		}
 	}
-	
+
 	//load autoloot list set
 	query.str(std::string());
 	query << "SELECT `autoloot_list` FROM `player_autoloot` WHERE `player_id` = " << player->getGUID();
@@ -1016,7 +1016,7 @@ bool IOLoginData::savePlayer(Player* player)
 	if (!rewardList.empty()) {
 		DBInsert rewardQuery("INSERT INTO `player_rewards` (`player_id`, `pid`, `sid`, `itemtype`, `count`, `attributes`) VALUES ");
 		itemList.clear();
-	
+
 		int running = 0;
 		for (const auto& rewardId : rewardList) {
 			Reward* reward = player->getReward(rewardId, false);
@@ -1030,7 +1030,7 @@ bool IOLoginData::savePlayer(Player* player)
 			return false;
 		}
 	}
-	
+
 	//Autoloot (save autoloot list)
 		query.str(std::string());
 		query << "DELETE FROM `player_autoloot` WHERE `player_id` = " << player->getGUID();

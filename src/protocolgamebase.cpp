@@ -123,7 +123,7 @@ void ProtocolGameBase::AddCreature(NetworkMessage& msg, const Creature* creature
 		msg.add<uint32_t>(remove);
 		msg.add<uint32_t>(creature->getID());
 		msg.addByte(creatureType);
-		
+
 		if (player->getProtocolVersion() >= 1120) {
 			if (creatureType == CREATURETYPE_SUMMONPLAYER) {
 				const Creature* master = creature->getMaster();
@@ -175,7 +175,7 @@ void ProtocolGameBase::AddCreature(NetworkMessage& msg, const Creature* creature
 			}
 		}
 	}
-	
+
 	msg.addByte(creatureType); // Type (for summons)
 
 	if (player->getProtocolVersion() >= 1120) {

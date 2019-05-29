@@ -5,9 +5,9 @@
 	<parameters>
 		<parameter key="module_shop" value="1" />
 		<parameter key="shop_buyable" value="
-			
-			
+
+
 			key,2090,10000,3700;" />
-		
+
 	</parameters>
 </npc>

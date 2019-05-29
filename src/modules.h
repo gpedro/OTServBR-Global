@@ -79,7 +79,7 @@ class Modules final : public BaseEvents
 		// non-copyable
 		Modules(const Modules&) = delete;
 		Modules& operator=(const Modules&) = delete;
-	
+
 		void executeOnRecvbyte(Player* player, NetworkMessage& msg, uint8_t byte) const;
 
 	protected:

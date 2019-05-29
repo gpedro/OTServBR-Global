@@ -7,12 +7,12 @@
 		<parameter key="shop_buyable" value="
 			rusty,9930,100;
 			ham,2671,50" />
-		<parameter key="shop_sellable" value="		
-				
+		<parameter key="shop_sellable" value="
+
 		dragon hammer,2434,2000;
-		ice rapier,2396,1000;		
+		ice rapier,2396,1000;
 		dragon shield,2516,4000;
-		skull staff,2436,6000;		
+		skull staff,2436,6000;
 		dms,2498,30000;
 		dms,7402,15000;
 		crown legs,2488,12000;
@@ -29,14 +29,14 @@
 		dms,2155,5000;
 		dms,2156,1000;
 		dms,2153,10000;
-		dms,2154,1000;			
+		dms,2154,1000;
 		dms,2409,900;
 		dms,7430,3000;
-		dms,2647,115;		
+		dms,2647,115;
 		dms,22533,400;
 		dms,22535,600;
 		dms,22532,700;
-		dms,22534,390;		
+		dms,22534,390;
 		dms,11355,12000;
 		dms,2149,250;
 		dms,2147,250;
@@ -45,9 +45,9 @@
 		dms,9970,200;
 		dms,2145,200;
 		dms,2143,100;
-		dms,2144,200;		
+		dms,2144,200;
 		dms,8871,6000;
-		dms,8870,1000;		
+		dms,8870,1000;
 		dms,8921,1500;
 		dms,18412,6500;
 		dms,2183,3000;
@@ -82,9 +82,9 @@
 		dms,11323,500;
 		dms,11302,45000;
 		dms,11304,14000;
-		dms,11303,5000;		
+		dms,11303,5000;
 		dms,11307,30000;
-		dms,11331,150;			
+		dms,11331,150;
 		dms,2492,40000;
 		bootshaste,2195,30000;
 		wandinferno,2187,3000;
@@ -103,7 +103,7 @@
 		poisoned,23573,110;
 		poisoned,23571,140;
 		necromantic,23567,390;
-		Acorn,11213,10;		
+		Acorn,11213,10;
 		 Legs,23539,11000;
 		   axe,2386,7;
 		   Axe,2378,80;
@@ -119,15 +119,15 @@
 		   Sword,2392,4000;
 		   Chain,23541,5000;
 		   Amulet,23554,2000;
-		   Glooth Axe,23551,1500;		   
-		    Glooth Blade,23550,1500;		   
-		    Glooth cap,23535,7000;		   
-		    Glooth Club,23549,1500;		   
-		    Glooth Whip,23543,2500;		   
-		    Halberd,2381,400;		   
-		    Heat Core,23538,10000;		   
-		    Metal Bat,23542,9000;		   
-		    Metal Spats,23540,2000;			
+		   Glooth Axe,23551,1500;
+		    Glooth Blade,23550,1500;
+		    Glooth cap,23535,7000;
+		    Glooth Club,23549,1500;
+		    Glooth Whip,23543,2500;
+		    Halberd,2381,400;
+		    Heat Core,23538,10000;
+		    Metal Bat,23542,9000;
+		    Metal Spats,23540,2000;
 		   Mino Lance,23545,7000;
 		   Mino Shield,23546,3000;
 		   Moohtah Plate,23537,6000;
@@ -441,7 +441,7 @@
 					Wood,5901,5;
 					Wool,11236,15;
 					Scale,10582,400;
-					Talisman,10561,265;		
+					Talisman,10561,265;
 		trophy,7398,500;
 		trophy,11315,15000;
 		trophy,11336,8000;
@@ -451,7 +451,7 @@
 		trophy,7394,3000;
 		trophy,7393,40000;
 		trophy,7396,20000;
-		trophy,7399,10000;	
+		trophy,7399,10000;
 			closed trap,2578,75;
 			crowbar,2416,50;
 			fishing rod,2580,40;

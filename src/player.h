@@ -730,7 +730,7 @@ class Player final : public Creature, public Cylinder
 		bool getOutfitAddons(const Outfit& outfit, uint8_t& addons) const;
 
 		bool canLogout();
-		
+
 		bool hasKilled(const Player* player) const;
 
 		size_t getMaxVIPEntries() const;
@@ -893,7 +893,7 @@ class Player final : public Creature, public Cylinder
 				client->sendCoinBalance();
 			}
 		}
-		
+
 		void sendInventoryItem(slots_t slot, const Item* item) {
 			if (client) {
 				client->sendInventoryItem(slot, item);
@@ -1218,7 +1218,7 @@ class Player final : public Creature, public Cylinder
 			if (client) {
 				client->sendOpenStore(serviceType);
 		}
-					
+
 				}
 
 
@@ -1263,7 +1263,7 @@ class Player final : public Creature, public Cylinder
 		void learnInstantSpell(const std::string& spellName);
 		void forgetInstantSpell(const std::string& spellName);
 		bool hasLearnedInstantSpell(const std::string& spellName) const;
-		
+
 		//Autoloot
 		void addAutoLootItem(uint16_t itemId);
 		void removeAutoLootItem(uint16_t itemId);
@@ -1335,15 +1335,15 @@ class Player final : public Creature, public Cylinder
 		}
 
 		void doCriticalDamage(CombatDamage& damage) const;
-		
+
 			bool isMarketExhausted() const; //Custom: Anti bug do market
 		//Custom: Anti bug do market
 		void updateMarketExhausted(){
 			lastMarketInteraction = OTSYS_TIME();
 		}
 
-		
-		
+
+
 	protected:
 		std::forward_list<Condition*> getMuteConditions() const;
 

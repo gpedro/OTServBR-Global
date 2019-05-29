@@ -229,7 +229,7 @@ class Game
 		uint32_t getPlayersRecord() const {
 			return playersRecord;
 		}
-		
+
 		LightInfo getWorldLightInfo() const;
 
 		bool gameIsDay();

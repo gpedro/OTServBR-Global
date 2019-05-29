@@ -303,7 +303,7 @@ int32_t Weapon::playerWeaponCheck(Player* player, Creature* target, uint8_t shoo
 		if (player->getMana() < getManaCost(player)) {
 			return 0;
 		}
-		
+
 		if (player->getHealth() < getHealthCost(player)) {
 			return 0;
 		}
@@ -437,7 +437,7 @@ void Weapon::onUsedWeapon(Player* player, Item* item, Tile* destTile) const
 		player->addManaSpent(manaCost);
 		player->changeMana(-static_cast<int32_t>(manaCost));
 	}
-	
+
 	uint32_t healthCost = getHealthCost(player);
 	if (healthCost != 0) {
 		player->changeHealth(-static_cast<int32_t>(healthCost));

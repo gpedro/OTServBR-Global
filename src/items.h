@@ -315,7 +315,7 @@ class Items
 
 		bool loadFromXml();
 		void parseItemNode(const pugi::xml_node& itemNode, uint16_t id);
-		
+
 		void buildInventoryList();
 		const InventoryVector& getInventory() const {
 			return inventory;

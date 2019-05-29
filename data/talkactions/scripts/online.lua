@@ -34,4 +34,4 @@ function onSay(player, words, param)
 	--end
 	return false
 end
- 
+

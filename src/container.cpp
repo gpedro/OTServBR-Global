@@ -349,7 +349,7 @@ ReturnValue Container::queryAdd(int32_t index, const Thing& thing, uint32_t coun
 			cylinder = cylinder->getParent();
 		}
 	}
-	
+
 	if (const Container* topParentContainer = getTopParentContainer()) {
 		uint32_t maxItem = static_cast<uint32_t>(g_config.getNumber(ConfigManager::MAX_ITEM));
 		if (const Container* addContainer = item->getContainer()) {

@@ -220,7 +220,7 @@ void mainLoader(int argc, char* argv[], ServiceManager* services)
 		startupErrorMessage("Unable to load outfits!");
 		return;
 	}
-	
+
 	std::cout << ">> Loading lua scripts" << std::endl;
 	if (!g_scripts->loadScripts("scripts", false, false)) {
 		startupErrorMessage("Failed to load lua scripts");

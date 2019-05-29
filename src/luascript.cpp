@@ -733,7 +733,7 @@ CombatDamage LuaScriptInterface::getCombatDamage(lua_State* L)
 	damage.primary.type = getNumber<CombatType_t>(L, -3);
 	damage.secondary.value = getNumber<int32_t>(L, -2);
 	damage.secondary.type = getNumber<CombatType_t>(L, -1);
-	
+
 		lua_pop(L, 4);
 	return damage;
 	}
@@ -2215,7 +2215,7 @@ registerEnumIn("configKeys", ConfigManager::QUEST_LUA)
 	registerMethod("Container", "getSize", LuaScriptInterface::luaContainerGetSize);
 	registerMethod("Container", "getCapacity", LuaScriptInterface::luaContainerGetCapacity);
 	registerMethod("Container", "getEmptySlots", LuaScriptInterface::luaContainerGetEmptySlots);
-	
+
 	//registerMethod("Container", "getContentDescription", LuaScriptInterface::luaContainerGetContentDescription);
 	registerMethod("Container", "getItemHoldingCount", LuaScriptInterface::luaContainerGetItemHoldingCount);
 	registerMethod("Container", "getItemCountById", LuaScriptInterface::luaContainerGetItemCountById);
@@ -2524,7 +2524,7 @@ registerEnumIn("configKeys", ConfigManager::QUEST_LUA)
 	registerMethod("Player", "setExpBoostStamina", LuaScriptInterface::luaPlayerSetExpBoostStamina);
 
 	registerMethod("Player", "getIdleTime", LuaScriptInterface::luaPlayerGetIdleTime);
-	
+
 	//Autoloot
 	registerMethod("Player", "addAutoLootItem", LuaScriptInterface::luaPlayerAddAutoLootItem);
 	registerMethod("Player", "removeAutoLootItem", LuaScriptInterface::luaPlayerRemoveAutoLootItem);
@@ -2563,7 +2563,7 @@ registerEnumIn("configKeys", ConfigManager::QUEST_LUA)
 	registerMethod("Monster", "searchTarget", LuaScriptInterface::luaMonsterSearchTarget);
 	registerMethod("Monster", "setSpawnPosition", LuaScriptInterface::luaMonsterSetSpawnPosition);
 	registerMethod("Monster", "getRespawnType", LuaScriptInterface::luaMonsterGetRespawnType);
-	
+
 	// Npc
 	registerClass("Npc", "Creature", LuaScriptInterface::luaNpcCreate);
 	registerMetaMethod("Npc", "__eq", LuaScriptInterface::luaUserdataCompare);
@@ -2785,16 +2785,16 @@ registerEnumIn("configKeys", ConfigManager::QUEST_LUA)
 	registerMethod("MonsterType", "isPassive", LuaScriptInterface::luaMonsterTypeIsHostile);
 	registerMethod("MonsterType", "isRewardBoss", LuaScriptInterface::luaMonsterTypeIsRewardBoss);
 	registerMethod("MonsterType", "isPreyable", LuaScriptInterface::luaMonsterTypeIsPreyable);
-	
+
 	registerMethod("MonsterType", "getRespawnType", LuaScriptInterface::luaMonsterTypeGetRespawnType);
-	
+
 	registerMethod("MonsterType", "canPushItems", LuaScriptInterface::luaMonsterTypeCanPushItems);
 	registerMethod("MonsterType", "canPushCreatures", LuaScriptInterface::luaMonsterTypeCanPushCreatures);
 
 	registerMethod("MonsterType", "name", LuaScriptInterface::luaMonsterTypeName);
-	
+
 	registerMethod("MonsterType", "nameDescription", LuaScriptInterface::luaMonsterTypeNameDescription);
-	
+
 	registerMethod("MonsterType", "health", LuaScriptInterface::luaMonsterTypeHealth);
 	registerMethod("MonsterType", "maxHealth", LuaScriptInterface::luaMonsterTypeMaxHealth);
 	registerMethod("MonsterType", "runHealth", LuaScriptInterface::luaMonsterTypeRunHealth);
@@ -2805,22 +2805,22 @@ registerEnumIn("configKeys", ConfigManager::QUEST_LUA)
 
 	registerMethod("MonsterType", "getAttackList", LuaScriptInterface::luaMonsterTypeGetAttackList);
 	registerMethod("MonsterType", "addAttack", LuaScriptInterface::luaMonsterTypeAddAttack);
-	
+
 	registerMethod("MonsterType", "getDefenseList", LuaScriptInterface::luaMonsterTypeGetDefenseList);
 	registerMethod("MonsterType", "addDefense", LuaScriptInterface::luaMonsterTypeAddDefense);
-	
+
 	registerMethod("MonsterType", "getElementList", LuaScriptInterface::luaMonsterTypeGetElementList);
 	registerMethod("MonsterType", "addElement", LuaScriptInterface::luaMonsterTypeAddElement);
 
 	registerMethod("MonsterType", "getVoices", LuaScriptInterface::luaMonsterTypeGetVoices);
 	registerMethod("MonsterType", "addVoice", LuaScriptInterface::luaMonsterTypeAddVoice);
-	
+
 	registerMethod("MonsterType", "getLoot", LuaScriptInterface::luaMonsterTypeGetLoot);
 	//registerMethod("MonsterType", "addLoot", LuaScriptInterface::luaMonsterTypeAddLoot);
-	
+
 	registerMethod("MonsterType", "getCreatureEvents", LuaScriptInterface::luaMonsterTypeGetCreatureEvents);
 	registerMethod("MonsterType", "registerEvent", LuaScriptInterface::luaMonsterTypeRegisterEvent);
-	
+
 	registerMethod("MonsterType", "setScriptFile", LuaScriptInterface::luaMonsterTypeSetScriptFile);
 
 	registerMethod("MonsterType", "getSummonList", LuaScriptInterface::luaMonsterTypeGetSummonList);
@@ -2917,7 +2917,7 @@ registerEnumIn("configKeys", ConfigManager::QUEST_LUA)
 
 	registerMethod("Spell", "isPremium", LuaScriptInterface::luaSpellIsPremium);
 	registerMethod("Spell", "isLearnable", LuaScriptInterface::luaSpellIsLearnable);
-	
+
 	// Action
 	registerClass("Action", "", LuaScriptInterface::luaCreateAction);
 	registerMethod("Action", "onUse", LuaScriptInterface::luaActionOnUse);
@@ -2982,7 +2982,7 @@ registerEnumIn("configKeys", ConfigManager::QUEST_LUA)
 	registerMethod("GlobalEvent", "onStartup", LuaScriptInterface::luaGlobalEventOnCallback);
 	registerMethod("GlobalEvent", "onShutdown", LuaScriptInterface::luaGlobalEventOnCallback);
 	registerMethod("GlobalEvent", "onRecord", LuaScriptInterface::luaGlobalEventOnCallback);
-	
+
 	// Weapon
 	registerClass("Weapon", "", LuaScriptInterface::luaCreateWeapon);
 	registerMethod("Weapon", "action", LuaScriptInterface::luaWeaponAction);
@@ -4343,13 +4343,13 @@ int LuaScriptInterface::luaGameLoadMap(lua_State* L)
 	g_dispatcher.addTask(createTask([path]() {
 		try {
 			g_game.loadMap(path);
-			
+
 		}
 		catch (const std::exception& e) {
 						// FIXME: Should only catch some exceptions
 				std::cout << "[Error - LuaScriptInterface::luaGameLoadMap] Failed to load map: "
 				 << e.what() << std::endl;
-			
+
 		}
 		}));
 	return 0;
@@ -8368,7 +8368,7 @@ int LuaScriptInterface::luaMonsterTypeGetRespawnType(lua_State* L)
 	MonsterType* monsterType = getUserdata<MonsterType>(L, 1);
 	if (monsterType) {
 		lua_pushnumber(L, monsterType->info.respawnType);
-	
+
 	}
 	else {
 		lua_pushnil(L);
@@ -9252,14 +9252,14 @@ int LuaScriptInterface::luaPlayerSetBankBalance(lua_State* L)
   		lua_pushnil(L);
  		return 1;
   	}
- 
+
  	int64_t balance = getNumber<int64_t>(L, 2);
  	if (balance < 0) {
  		reportErrorFunc("Invalid bank balance value.");
  		lua_pushnil(L);
  		return 1;
  	}
- 
+
  	player->setBankBalance(balance);
  	pushBoolean(L, true);
   	return 1;
@@ -9521,11 +9521,11 @@ int LuaScriptInterface::luaPlayerShowTextDialog(lua_State* L)
 	Item* item;
 	if (isNumber(L, 2)) {
 		item = Item::CreateItem(getNumber<uint16_t>(L, 2));
-		
+
 	}
 	else if (isString(L, 2)) {
 		item = Item::CreateItem(Item::items.getItemIdByName(getString(L, 2)));
-		
+
 	}
 	else if (isUserdata(L, 2)) {
 		if (getUserdataType(L, 2) != LuaData_Item) {
@@ -12024,12 +12024,12 @@ int LuaScriptInterface::luaHouseGetItems(lua_State* L)
 	if (!house) {
 		lua_pushnil(L);
 		return 1;
-		
+
 	}
-	
+
 		const auto& tiles = house->getTiles();
 	lua_newtable(L);
-	
+
 		int index = 0;
 	for (Tile* tile : tiles) {
 		TileItemVector* itemVector = tile->getItemList();
@@ -12038,11 +12038,11 @@ int LuaScriptInterface::luaHouseGetItems(lua_State* L)
 				pushUserdata<Item>(L, item);
 				setItemMetatable(L, -1, item);
 				lua_rawseti(L, -2, ++index);
-				
+
 			}
-			
+
 		}
-		
+
 	}
 	return 1;
 }
@@ -12874,7 +12874,7 @@ int LuaScriptInterface::luaCombatExecute(lua_State* L)
 		pushBoolean(L, false);
 		return 1;
 	}
-	
+
 	if (isUserdata(L, 2)) {
 		LuaDataType type = getUserdataType(L, 2);
 		if (type != LuaData_Player && type != LuaData_Monster && type != LuaData_Npc) {
@@ -13162,7 +13162,7 @@ int LuaScriptInterface::luaMonsterTypeCreate(lua_State* L)
 	} else {
 		lua_pushnil(L);
 	}
-	return 1; 
+	return 1;
 }
 
 int LuaScriptInterface::luaMonsterTypeIsAttackable(lua_State* L)

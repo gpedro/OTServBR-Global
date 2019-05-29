@@ -724,7 +724,7 @@ void Monster::onThink(uint32_t interval)
 			return;
 		}
 	}
-	
+
 	uint32_t minutes = g_game.getLightHour();
 	bool isday = false;
 	if (minutes >= ((6 * 60) + 30) && minutes <= ((17 * 60) + 30))
@@ -1937,12 +1937,12 @@ void Monster::setNormalCreatureLight()
 void Monster::drainHealth(Creature* attacker, int32_t damage)
 {
 	Creature::drainHealth(attacker, damage);
-	
+
 	if (damage > 0 && randomStepping) {
 		ignoreFieldDamage = true;
 		updateMapCache();
 	}
-	
+
 	if (isInvisible()) {
 		removeCondition(CONDITION_INVISIBLE);
 	}

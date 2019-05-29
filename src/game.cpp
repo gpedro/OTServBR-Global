@@ -83,7 +83,7 @@ Game::~Game()
 void Game::start(ServiceManager* manager)
 {
 	serviceManager = manager;
-	
+
 	time_t now = time(0);
 	const tm* tms = localtime(&now);
 	int minutes = tms->tm_min;
@@ -805,7 +805,7 @@ ReturnValue Game::internalMoveCreature(Creature* creature, Direction direction, 
 				}
 			}
 		}
-		
+
 		//try go down
 		if (currentPos.z != 7 && currentPos.z == destPos.z) {
 			Tile* tmpTile = map.getTile(destPos.x, destPos.y, destPos.z);
@@ -3179,7 +3179,7 @@ void Game::playerLookAt(uint32_t playerId, const Position& pos, uint8_t stackPos
 	} else {
 		lookDistance = -1;
 	}
-	
+
 	if(Condition* conditionlook = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_EXHAUST, 1000, 0, false, 1)) {
         player->addCondition(conditionlook);
     }
@@ -3202,7 +3202,7 @@ void Game::playerLookInBattleList(uint32_t playerId, uint32_t creatureId)
 	if (Condition* conditionlook = Condition::createCondition(CONDITIONID_DEFAULT, CONDITION_EXHAUST, 100, 0, false, 7)) {
 		player->addCondition(conditionlook);
 	}
-	
+
 	Creature* creature = getCreatureByID(creatureId);
 	if (!creature) {
 		return;
@@ -3227,7 +3227,7 @@ void Game::playerLookInBattleList(uint32_t playerId, uint32_t creatureId)
 	} else {
 		lookDistance = -1;
 	}
-	
+
 	g_events->eventPlayerOnLookInBattleList(player, creature, lookDistance);
 }
 
@@ -3409,7 +3409,7 @@ void Game::playerChangeOutfit(uint32_t playerId, Outfit_t outfit)
 	if (!player) {
 		return;
 	}
-	
+
 	if (player->hasCondition(CONDITION_EXHAUST, 1)) {
 		player->sendTextMessage(MESSAGE_STATUS_SMALL, "You can't change outfit very fast.");
 		return;
@@ -4818,7 +4818,7 @@ void Game::checkLight()
 
 LightInfo Game::getWorldLightInfo() const
 {
-	
+
 	return {lightLevel, 0xD7};
 }
 
@@ -5136,7 +5136,7 @@ void Game::playerInviteToParty(uint32_t playerId, uint32_t invitedId)
     if (playerId == invitedId) {
 		return;
 	}
-    
+
 	Player* player = getPlayerByID(playerId);
 	if (!player) {
 		return;
@@ -5409,7 +5409,7 @@ void Game::playerCreateMarketOffer(uint32_t playerId, uint8_t type, uint16_t spr
 	if (!player->isInMarket()) {
 		return;
 	}
-	
+
 	//Custom: Anti bug do market
 	if(player->isMarketExhausted()){
         player->sendCancelMessage(RETURNVALUE_YOUAREEXHAUSTED);
@@ -5520,7 +5520,7 @@ void Game::playerCancelMarketOffer(uint32_t playerId, uint32_t timestamp, uint16
 	if (!player->isInMarket()) {
 		return;
 	}
-	
+
 	//Custom: Anti bug do market
 	if(player->isMarketExhausted()){
         player->sendCancelMessage(RETURNVALUE_YOUAREEXHAUSTED);
@@ -5597,7 +5597,7 @@ void Game::playerAcceptMarketOffer(uint32_t playerId, uint32_t timestamp, uint16
 	if (!player->isInMarket()) {
 		return;
 	}
-	
+
 		//Custom: Anti bug do market
 	if(player->isMarketExhausted()){
         player->sendCancelMessage(RETURNVALUE_YOUAREEXHAUSTED);
@@ -6496,7 +6496,7 @@ bool Game::reload(ReloadTypes_t reloadType)
 			g_weapons->loadDefaults();
 			return results;
 		}
-		
+
 		case RELOAD_TYPE_SCRIPTS: {
 
 			g_actions->clear(true);

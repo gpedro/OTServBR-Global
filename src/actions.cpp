@@ -377,7 +377,7 @@ ReturnValue Actions::internalUseItem(Player* player, const Position& pos, uint8_
 		} else {
 			openContainer = container;
 		}
-		
+
 		//reward chest
 		if (container->getRewardChest()) {
 			RewardChest* myRewardChest = player->getRewardChest();
