@@ -68,7 +68,8 @@
 		<voice sentence="Chill out!." />
 	</voices>
 	<loot>
-		<item id="1976" chance="8500" /> <!-- book (gemmed) -->
+		<item id="1976" chance="8500" />
+		<!-- book (gemmed) -->
 		<item name="golden mug" chance="3000" />
 		<item name="small sapphire" chance="5200" />
 		<item name="gold coin" countmax="100" chance="33000" />
@@ -86,6 +87,7 @@
 		<item name="green mushroom" chance="12000" />
 		<item name="shard" chance="550" />
 		<item name="dragon slayer" chance="120" />
-		<item id="7441" chance="4000" /><!-- ice cube -->
+		<item id="7441" chance="4000" />
+		<!-- ice cube -->
 	</loot>
 </monster>

@@ -48,6 +48,7 @@
 		<voice sentence="Boohaa!" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="13" chance="12000" />	<!-- gold coin -->
+		<item id="2148" countmax="13" chance="12000" />
+		<!-- gold coin -->
 	</loot>
 </monster>

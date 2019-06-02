@@ -2,9 +2,9 @@
 <npc name="Frederik" script="Frederik.lua" walkinterval="2000" floorchange="0">
 	<health now="100" max="100" />
 	<look type="128" head="76" body="85" legs="96" feet="91" addons="2" />
-<voices>
-<voice text="Potions, runes, wands and rods, all here in the great Malunga's house." interval2="90" margin="1" yell="no" />
-</voices>
+	<voices>
+		<voice text="Potions, runes, wands and rods, all here in the great Malunga's house." interval2="90" margin="1" yell="no" />
+	</voices>
 	<parameters>
 		<parameter key="keywords" value="magic;" />
 		<parameter key="keyword_reply1" value="I'm selling spirit, health and mana potions, runes, wands, rods and spellbooks. If you'd like to see my offers, ask me for a {trade}." />

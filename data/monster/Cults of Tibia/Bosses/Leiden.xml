@@ -18,7 +18,7 @@
 	</flags>
 	<script>
 		<event name="healLeiden" />
-    </script>
+	</script>
 	<attacks>
 		<attack name="melee" interval="2000" min="-0" max="-400" />
 	</attacks>
@@ -37,6 +37,6 @@
 		<voice sentence="Bring me the pain! Make me suffer!" />
 	</voices>
 	<loot>
-	
+
 	</loot>
 </monster>

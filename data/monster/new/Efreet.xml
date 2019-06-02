@@ -57,7 +57,7 @@
 		<voice sentence="I grant you a deathwish!" />
 		<voice sentence="Good wishes are for fairytales" />
 	</voices>
-		<loot>
+	<loot>
 		<item name="gold coin" countmax="130" chance="97420" />
 		<item name="royal spear" countmax="3" chance="15240" />
 		<item name="strong mana potion" chance="10340" />

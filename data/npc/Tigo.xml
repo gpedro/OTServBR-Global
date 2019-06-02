@@ -3,6 +3,6 @@
 	<health now="100" max="100"/>
 	<look type="159" head="78" body="6" legs="121" feet="120" addons="0" />
 	<parameters>
-	<!-- <parameter key="message_greet" value="Hiho |PLAYERNAME|! Welcome to Kazordoon {furniture} store."/> -->
+		<!-- <parameter key="message_greet" value="Hiho |PLAYERNAME|! Welcome to Kazordoon {furniture} store."/> -->
 	</parameters>
-</npc> 
+</npc>

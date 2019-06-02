@@ -33,7 +33,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="28" defense="33" />
-	<elements> <!-- Todos Elementos -->
+	<elements>		<!-- Todos Elementos -->
 		<element physicalPercent="0" />
 		<element icePercent="0" />
 		<element earthPercent="0" />
@@ -45,7 +45,7 @@
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 	</elements>
-	<immunities> <!-- Todas Imunidades -->
+	<immunities>		<!-- Todas Imunidades -->
 		<immunity paralyze="0" />
 		<immunity death="0" />
 		<immunity physical="0" />

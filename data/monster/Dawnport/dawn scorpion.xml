@@ -11,7 +11,7 @@
 		<flag illusionable="1"/>
 		<flag convinceable="0"/>
 		<flag pushable="1"/>
-				<flag isblockable="0" />
+		<flag isblockable="0" />
 		<flag canpushitems="0"/>
 		<flag canpushcreatures="0"/>
 		<flag targetdistance="1"/>
@@ -27,7 +27,9 @@
 	</attacks>
 	<defenses armor="11" defense="5"/>
 	<loot>
-		<item id="2148" countmax="4" chance="100000"/><!-- gold coin -->
-		<item id="10568" chance="2170"/> <!-- scorpion tail -->
+		<item id="2148" countmax="4" chance="100000"/>
+		<!-- gold coin -->
+		<item id="10568" chance="2170"/>
+		<!-- scorpion tail -->
 	</loot>
 </monster>

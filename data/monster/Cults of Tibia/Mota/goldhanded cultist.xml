@@ -54,6 +54,7 @@
 		<item name="gold ingot" chance="2860" />
 		<item name="opal" chance="11430" />
 		<item name="yellow gem" chance="5710" />
-		<item id="1997" chance="1430" /> <!-- GOLDEN BAG -->
+		<item id="1997" chance="1430" />
+		<!-- GOLDEN BAG -->
 	</loot>
 </monster>

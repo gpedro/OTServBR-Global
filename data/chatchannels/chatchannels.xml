@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <channels>
 	<channel id="2" name="Tutor" script="tutor.lua" />
 	<channel id="3" name="World Chat" public="1" script="worldchat.lua" />
@@ -7,6 +7,6 @@
 	<channel id="6" name="Advertising-Rookgaard" public="1" script="advertising-rook.lua" />
 	<channel id="7" name="Help" public="1" script="help.lua" />
 	<channel id="8" name="Gamemaster" script="gamemaster.lua" />
-    <channel id="10" name="Loot" public="1" script="loot.lua" />
+	<channel id="10" name="Loot" public="1" script="loot.lua" />
 	<channel id="11" name="Guild Leaders" script="guildleaders.lua" />
 </channels>

@@ -31,6 +31,7 @@
 		<voice sentence="Kaplar!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="28" chance="17500"/><!-- gold coin -->
+		<item id="2148" countmax="28" chance="17500"/>
+		<!-- gold coin -->
 	</loot>
 </monster>

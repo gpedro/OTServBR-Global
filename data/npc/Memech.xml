@@ -4,7 +4,7 @@
 	<look type="131" head="21" body="21" legs="21" feet="116" addons="0" />
 	<parameters>
 		<parameter key="module_shop" value="1" />
-	<parameter key="shop_buyable" value="
+		<parameter key="shop_buyable" value="
 			axe,2386,20;
 			battle axe,2378,235;
 			battle hammer,2417,350;

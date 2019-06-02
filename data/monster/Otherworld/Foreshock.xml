@@ -18,8 +18,8 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<script>
-    	<event name="ShocksDeath" />
-    	<event name="ForeshockTransform" />
+		<event name="ShocksDeath" />
+		<event name="ForeshockTransform" />
 	</script>
 	<attacks>
 		<attack name="melee" interval="2000" min="-400" max="-1000"/>
@@ -42,7 +42,7 @@
 	</attacks>
 	<defenses armor="100" defense="100">
 		<defense name="healing" interval="2000" chance="15" min="300" max="600">
-				<attribute key="areaEffect" value="blueshimmer"/>
+			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>

@@ -29,20 +29,23 @@
 	</defenses>
 	<elements>
 		<element earthPercent="10" />
-	</elements>	
+	</elements>
 	<voices interval="5000" chance="10">
 		<voice sentence="Chrrch!" />
 		<voice sentence="Chhh!" />
 	</voices>
 	<loot>
-		<item id="2120" chance="5070" /><!-- Rope -->
+		<item id="2120" chance="5070" />
+		<!-- Rope -->
 		<item name="gold coin" countmax="15" chance="72000" />
 		<item name="mace" chance="3780" />
-		<item id="2419" chance="490" /><!-- Scimitar -->
+		<item id="2419" chance="490" />
+		<!-- Scimitar -->
 		<item name="bow" chance="740" />
 		<item name="brass helmet" chance="2180" />
 		<item name="arrow" countmax="3" chance="7890" />
 		<item name="health potion" chance="1480" />
-		<item id="19737" countmax="5" chance="34920" /><!-- Insectoid Eggs -->
+		<item id="19737" countmax="5" chance="34920" />
+		<!-- Insectoid Eggs -->
 	</loot>
 </monster>

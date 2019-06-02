@@ -28,12 +28,13 @@
 		<element earthPercent="0" />
 		<element energyPercent="0" />
 	</elements>
-<!--	<immunities>
+	<!--	<immunities>
 		<immunity paralyze="1" />
 		<immunity invisible="1" />
 	</immunities> -->
 	<loot>
-		<item id="2148" countmax="78" chance="10000" />  <!--GoldCoin-->
+		<item id="2148" countmax="78" chance="10000" />
+		<!--GoldCoin-->
 
 	</loot>
 </monster>

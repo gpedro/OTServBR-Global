@@ -11,7 +11,7 @@
 		<flag illusionable="0" />
 		<flag convinceable="0" />
 		<flag pushable="0" />
-				<flag isblockable="0" />
+		<flag isblockable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
@@ -62,8 +62,11 @@
 		<element deathPercent="-20" />
 	</elements>
 	<loot>
-		<item id="15411" chance="100000" /><!-- depth scutum -->
-		<item id="15404" chance="1285" /><!-- deepling axe -->
-		<item id="15412" chance="1285" unique="1" /><!-- ornate legs -->
+		<item id="15411" chance="100000" />
+		<!-- depth scutum -->
+		<item id="15404" chance="1285" />
+		<!-- deepling axe -->
+		<item id="15412" chance="1285" unique="1" />
+		<!-- ornate legs -->
 	</loot>
 </monster>

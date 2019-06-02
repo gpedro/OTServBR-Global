@@ -38,7 +38,8 @@
 		<voice sentence="Crrrck!" />
 	</voices>
 	<loot>
-		<item id="2120" chance="5080" /><!-- rope -->
+		<item id="2120" chance="5080" />
+		<!-- rope -->
 		<item name="gold coin" countmax="12" chance="84900" />
 		<item name="white mushroom" countmax="5" chance="10220" />
 		<item name="swampling club" chance="7410" />

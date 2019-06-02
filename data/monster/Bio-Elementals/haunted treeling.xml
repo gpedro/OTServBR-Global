@@ -57,7 +57,8 @@
 	<loot>
 		<!-- common -->
 		<item name="gold coin" countmax="95" chance="91920" />
-		<item id="4860" chance="29190" /><!-- wooden trash -->
+		<item id="4860" chance="29190" />
+		<!-- wooden trash -->
 		<!-- semi-rare -->
 		<item name="red mushroom" chance="7700" />
 		<item name="health potion" chance="5130" />

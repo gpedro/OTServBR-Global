@@ -31,6 +31,7 @@
 		<immunity paralyze="1" />
 	</immunities>
 	<loot>
-		<item id="2152" chance="100000"/><!-- platinum coin -->
+		<item id="2152" chance="100000"/>
+		<!-- platinum coin -->
 	</loot>
 </monster>

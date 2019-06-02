@@ -18,24 +18,24 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-0" max="-400" />
-	<attack name="death" interval="2000" chance="40" target="1" range="6" radius="8" min="-0" max="-500">
-		<attribute key="shootEffect" value="death" />
-		<attribute key="areaEffect" value="mortarea" />
-	</attack>
+		<attack name="death" interval="2000" chance="40" target="1" range="6" radius="8" min="-0" max="-500">
+			<attribute key="shootEffect" value="death" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
 	</attacks>
 	<defenses armor="35" defense="50">
 	</defenses>
 	<elements>
 	</elements>
 	<immunities>
-	<immunity death="1" />
-	<immunity ice="1" />
-	<immunity holy="1" />
-	<immunity earth="1" />
-	<immunity physical="1" />
-	<immunity fire="1" />
-	<immunity energy="1" />
-	<immunity invisibility="1" />
-	<immunity paralyze="1" />
+		<immunity death="1" />
+		<immunity ice="1" />
+		<immunity holy="1" />
+		<immunity earth="1" />
+		<immunity physical="1" />
+		<immunity fire="1" />
+		<immunity energy="1" />
+		<immunity invisibility="1" />
+		<immunity paralyze="1" />
 	</immunities>
 </monster>

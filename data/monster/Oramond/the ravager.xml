@@ -19,7 +19,7 @@
 	</flags>
 	<script>
 		<event name="tp"/>
-	</script>	
+	</script>
 	<attacks>
 		<attack name="melee" interval="2000" skill="82" attack="70" poison="320"/>
 		<attack name="death" interval="2000" chance="12" range="7" min="-200" max="-750">
@@ -57,11 +57,17 @@
 		<summon name="Greater Canopic Jar" interval="2000" chance="9" max="8"/>
 	</summons>
 	<loot>
-		<item id="2148" countmax="243" chance="95000"/><!-- gold coin -->
-		<item id="7590" countmax="5" chance="10000"/><!-- great mana potion -->
-		<item id="7591" countmax="5" chance="5000"/><!-- great health potion -->
-		<item id="2152" countmax="5" chance="37500"/><!-- platinum coin -->
-		<item id="2159" countmax="5" chance="15000"/><!-- scarab coin -->
-		<item id="2440" chance="5000"/><!-- twin axe -->
+		<item id="2148" countmax="243" chance="95000"/>
+		<!-- gold coin -->
+		<item id="7590" countmax="5" chance="10000"/>
+		<!-- great mana potion -->
+		<item id="7591" countmax="5" chance="5000"/>
+		<!-- great health potion -->
+		<item id="2152" countmax="5" chance="37500"/>
+		<!-- platinum coin -->
+		<item id="2159" countmax="5" chance="15000"/>
+		<!-- scarab coin -->
+		<item id="2440" chance="5000"/>
+		<!-- twin axe -->
 	</loot>
 </monster>

@@ -6,7 +6,7 @@
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag preyable="0" />
-        <flag rewardboss="1" />
+		<flag rewardboss="1" />
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
@@ -20,7 +20,7 @@
 		<flag targetdistance="1"/>
 		<flag runonhealth="0"/>
 	</flags>
-  
+
 	<attacks>
 		<attack name="melee" interval="2000" skill="150" attack="50" poison="180"/>
 		<attack name="lifedrain" interval="2000" chance="10" length="4" spread="0" min="-90" max="-180">
@@ -55,25 +55,45 @@
 		<voice sentence="Slurp!"/>
 	</voices>
 	<loot>
-		<item id="21400" chance="3000"/><!-- silver raid token -->
-		<item id="2148" countmax="105" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="8" chance="100000"/><!-- platinum coin -->
-		<item id="21705" chance="3000"/><!-- glass of goo -->
-		<item id="21706" chance="3000"/><!-- goo shell -->
-		<item id="2154" chance="10000"/><!-- yellow gem -->
-		<item id="2155" chance="10000"/><!-- green gem -->
-		<item id="8473" countmax="3" chance="10000"/><!-- ultimate health potion -->
-		<item id="8472" countmax="3" chance="10000"/><!-- great spirit potion -->
-		<item id="7590" countmax="3" chance="10000"/><!-- great mana potion -->
-		<item id="2149" countmax="5" chance="10000"/><!-- small emerald -->
-		<item id="9970" countmax="5" chance="10000"/><!-- small topaz -->
-		<item id="8872" chance="20000"/><!-- belted cape -->
-		<item id="5910" chance="10000"/><!-- green piece of cloth -->
-		<item id="5911" chance="10000"/><!-- red piece of cloth -->
-		<item id="5914" chance="10000"/><!-- yellow piece of cloth -->
-		<item id="2409" chance="20000"/><!-- serpent sword -->
-		<item id="8912" chance="20000"/><!-- springsprout rod -->
-		<item id="8891" chance="10000"/><!-- paladin armor -->
-		<item id="10584" countmax="1" chance="100000"/><!-- boggy dreads -->
+		<item id="21400" chance="3000"/>
+		<!-- silver raid token -->
+		<item id="2148" countmax="105" chance="100000"/>
+		<!-- gold coin -->
+		<item id="2152" countmax="8" chance="100000"/>
+		<!-- platinum coin -->
+		<item id="21705" chance="3000"/>
+		<!-- glass of goo -->
+		<item id="21706" chance="3000"/>
+		<!-- goo shell -->
+		<item id="2154" chance="10000"/>
+		<!-- yellow gem -->
+		<item id="2155" chance="10000"/>
+		<!-- green gem -->
+		<item id="8473" countmax="3" chance="10000"/>
+		<!-- ultimate health potion -->
+		<item id="8472" countmax="3" chance="10000"/>
+		<!-- great spirit potion -->
+		<item id="7590" countmax="3" chance="10000"/>
+		<!-- great mana potion -->
+		<item id="2149" countmax="5" chance="10000"/>
+		<!-- small emerald -->
+		<item id="9970" countmax="5" chance="10000"/>
+		<!-- small topaz -->
+		<item id="8872" chance="20000"/>
+		<!-- belted cape -->
+		<item id="5910" chance="10000"/>
+		<!-- green piece of cloth -->
+		<item id="5911" chance="10000"/>
+		<!-- red piece of cloth -->
+		<item id="5914" chance="10000"/>
+		<!-- yellow piece of cloth -->
+		<item id="2409" chance="20000"/>
+		<!-- serpent sword -->
+		<item id="8912" chance="20000"/>
+		<!-- springsprout rod -->
+		<item id="8891" chance="10000"/>
+		<!-- paladin armor -->
+		<item id="10584" countmax="1" chance="100000"/>
+		<!-- boggy dreads -->
 	</loot>
 </monster>

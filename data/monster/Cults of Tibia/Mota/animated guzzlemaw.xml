@@ -33,7 +33,7 @@
 		<attack name="speed" interval="2000" chance="15" radius="6" target="0" speedchange="-800" duration="15000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
- 		<attack name="lifedrain" interval="2000" chance="10" length="8" spread="0" min="-0" max="-800">
+		<attack name="lifedrain" interval="2000" chance="10" length="8" spread="0" min="-0" max="-800">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 	</attacks>
@@ -65,12 +65,16 @@
 		<item name="banana skin" chance="10700" />
 		<item name="piece of iron" chance="10500" />
 		<item name="fishbone" chance="9500" />
-		<item id="2229" chance="10400" /><!-- skull -->
-		<item id="2230" chance="9200" /><!-- bone -->
-		<item id="2231" chance="4500" /><!-- big bone -->
+		<item id="2229" chance="10400" />
+		<!-- skull -->
+		<item id="2230" chance="9200" />
+		<!-- bone -->
+		<item id="2231" chance="4500" />
+		<!-- big bone -->
 		<item name="fish remains" chance="10110" />
 		<item name="two handed sword" chance="2700" />
-		<item id="2667" countmax="3" chance="7000" /><!-- fish -->
+		<item id="2667" countmax="3" chance="7000" />
+		<!-- fish -->
 		<item name="ham" chance="10000" />
 		<item name="iron ore" chance="3000" />
 		<item name="fish fin" chance="5000" />

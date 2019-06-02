@@ -2,7 +2,7 @@
 <monster name="Biting Cold" nameDescription="a biting cold" race="blood" experience="0" speed="350" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="53" corpse="5998" />
-	<flags> <!-- Todas as Flags -->
+	<flags>		<!-- Todas as Flags -->
 		<flag rewardboss="0" />
 		<flag summonable="0" />
 		<flag attackable="1" />
@@ -32,7 +32,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="28" defense="33" />
-	<elements> <!-- Todos Elementos -->
+	<elements>		<!-- Todos Elementos -->
 		<element physicalPercent="0" />
 		<element icePercent="0" />
 		<element earthPercent="0" />

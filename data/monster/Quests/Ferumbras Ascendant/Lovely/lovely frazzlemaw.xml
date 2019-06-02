@@ -65,35 +65,65 @@
 		<voice sentence="MMMWAHMWAHMWAHMWAAAAH!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="22396" chance="490"/><!-- cluster of solace -->
-		<item id="22532" chance="18560"/><!-- frazzle tongue -->
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="7591" countmax="2" chance="14490"/><!-- great health potion -->
-		<item id="7590" countmax="3" chance="14810"/><!-- great mana potion -->
-		<item id="2152" countmax="7" chance="100000"/><!-- platinum coin -->
-		<item id="2219" chance="9920"/><!-- banana skin -->
-		<item id="2225" chance="10210"/><!-- piece of iron -->
-		<item id="2226" chance="10040"/><!-- fishbone -->
-		<item id="2229" chance="12380"/><!-- skull -->
-		<item id="2230" chance="9510"/><!-- bone -->
-		<item id="2231" chance="5360"/><!-- big bone -->
-		<item id="2667" countmax="3" chance="6780"/><!-- fish -->
-		<item id="2671" countmax="2" chance="5960"/><!-- ham -->
-		<item id="5880" chance="3000"/><!-- iron ore -->
-		<item id="5895" chance="4650"/><!-- fish fin -->
-		<item id="5925" chance="5190"/><!-- hardened bone -->
-		<item id="5951" chance="10670"/><!-- fish tail -->
-		<item id="7404" chance="990"/><!-- assassin dagger -->
-		<item id="7407" chance="2110"/><!-- haunted blade -->
-		<item id="2377" chance="3170"/><!-- two handed sword -->
-		<item id="7418" chance="1030"/><!-- nightmare blade -->
-		<item id="9971" chance="2330"/><!-- gold ingot -->
-		<item id="11306" chance="1600"/><!-- sai -->
-		<item id="18414" chance="3000"/><!-- violet crystal shard -->
-		<item id="18417" chance="15640"/><!-- brown crystal splinter -->
-		<item id="18420" chance="5230"/><!-- red crystal fragment -->
-		<item id="18554" chance="9640"/><!-- crystal rubbish -->
-		<item id="22533" chance="15990"/><!-- frazzle skin -->
-		<item id="2240" chance="9430"/><!-- remains of a fish -->
+		<item id="22396" chance="490"/>
+		<!-- cluster of solace -->
+		<item id="22532" chance="18560"/>
+		<!-- frazzle tongue -->
+		<item id="2148" countmax="100" chance="100000"/>
+		<!-- gold coin -->
+		<item id="7591" countmax="2" chance="14490"/>
+		<!-- great health potion -->
+		<item id="7590" countmax="3" chance="14810"/>
+		<!-- great mana potion -->
+		<item id="2152" countmax="7" chance="100000"/>
+		<!-- platinum coin -->
+		<item id="2219" chance="9920"/>
+		<!-- banana skin -->
+		<item id="2225" chance="10210"/>
+		<!-- piece of iron -->
+		<item id="2226" chance="10040"/>
+		<!-- fishbone -->
+		<item id="2229" chance="12380"/>
+		<!-- skull -->
+		<item id="2230" chance="9510"/>
+		<!-- bone -->
+		<item id="2231" chance="5360"/>
+		<!-- big bone -->
+		<item id="2667" countmax="3" chance="6780"/>
+		<!-- fish -->
+		<item id="2671" countmax="2" chance="5960"/>
+		<!-- ham -->
+		<item id="5880" chance="3000"/>
+		<!-- iron ore -->
+		<item id="5895" chance="4650"/>
+		<!-- fish fin -->
+		<item id="5925" chance="5190"/>
+		<!-- hardened bone -->
+		<item id="5951" chance="10670"/>
+		<!-- fish tail -->
+		<item id="7404" chance="990"/>
+		<!-- assassin dagger -->
+		<item id="7407" chance="2110"/>
+		<!-- haunted blade -->
+		<item id="2377" chance="3170"/>
+		<!-- two handed sword -->
+		<item id="7418" chance="1030"/>
+		<!-- nightmare blade -->
+		<item id="9971" chance="2330"/>
+		<!-- gold ingot -->
+		<item id="11306" chance="1600"/>
+		<!-- sai -->
+		<item id="18414" chance="3000"/>
+		<!-- violet crystal shard -->
+		<item id="18417" chance="15640"/>
+		<!-- brown crystal splinter -->
+		<item id="18420" chance="5230"/>
+		<!-- red crystal fragment -->
+		<item id="18554" chance="9640"/>
+		<!-- crystal rubbish -->
+		<item id="22533" chance="15990"/>
+		<!-- frazzle skin -->
+		<item id="2240" chance="9430"/>
+		<!-- remains of a fish -->
 	</loot>
 </monster>

@@ -16,7 +16,7 @@
 	</flags>
 	<script>
 		<event name="Evaporate" />
-    </script>
+	</script>
 	<attacks>
 		<attack name="melee" interval="2000" min="-0" max="-400" />
 	</attacks>

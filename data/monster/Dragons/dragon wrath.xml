@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Dragon Wrath" nameDescription="a dragon wrath" race="undead" experience="4600" speed="320" manacost="0">
-<health now="7800" max="7800"/>
-<look type="351" corpse="11362"/>
+  <health now="7800" max="7800"/>
+  <look type="351" corpse="11362"/>
   <targetchange interval="2000" chance="5" />
   <strategy attack="70" defense="10" />
   <flags>
@@ -16,8 +16,8 @@
     <flag targetdistance="1" />
     <flag staticattack="90" />
     <flag runonhealth="366" />
-	
-	<flag isblockable="0" />
+
+    <flag isblockable="0" />
   </flags>
   <attacks>
     <attack name="melee" interval="2000" skill="80" attack="100" />
@@ -35,7 +35,7 @@
       <attribute key="areaEffect" value="mortarea" />
     </attack>
   </attacks>
-  <defenses armor="45" defense="35" >
+  <defenses armor="45" defense="35">
     <defense name="healing" interval="2000" chance="9" min="70" max="300">
       <attribute key="areaEffect" value="greenshimmer" />
     </defense>
@@ -55,8 +55,8 @@
     <immunity earth="1" />
     <immunity drunk="1" />
   </immunities>
-	<voices interval="2000" chance="5">
-		<voice sentence="EMBRACE MY GIFTS!" yell="1"/>
-		<voice sentence="I WILL FEAST ON YOUR SOUL!" yell="1"/>
-	</voices>
+  <voices interval="2000" chance="5">
+    <voice sentence="EMBRACE MY GIFTS!" yell="1"/>
+    <voice sentence="I WILL FEAST ON YOUR SOUL!" yell="1"/>
+  </voices>
 </monster>

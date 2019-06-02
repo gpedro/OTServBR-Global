@@ -31,10 +31,15 @@
 		<voice sentence="Bssssss" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="20" chance="100000" /><!-- gold coin -->
-		<item id="5902" countmax="3" chance="100000" /><!-- honeycomb -->
-		<item id="2170" chance="17650" /><!-- silver amulet -->
-		<item id="2149" chance="5880" /><!-- small emerald -->
-		<item id="21400" chance="5000" /><!-- silver raid token -->
+		<item id="2148" countmax="20" chance="100000" />
+		<!-- gold coin -->
+		<item id="5902" countmax="3" chance="100000" />
+		<!-- honeycomb -->
+		<item id="2170" chance="17650" />
+		<!-- silver amulet -->
+		<item id="2149" chance="5880" />
+		<!-- small emerald -->
+		<item id="21400" chance="5000" />
+		<!-- silver raid token -->
 	</loot>
 </monster>

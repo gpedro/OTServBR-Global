@@ -12,7 +12,7 @@
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
-				<flag isblockable="0" />
+		<flag isblockable="0" />
 		<flag canpushcreatures="0"/>
 		<flag targetdistance="4"/>
 		<flag staticattack="90"/>
@@ -34,10 +34,15 @@
 		<immunity fire="1"/>
 	</immunities>
 	<loot>
-		<item id="2260" chance="21050"/><!-- blank rune -->
-		<item id="2148" countmax="10" chance="100000"/><!-- gold coin -->
-		<item id="12469" chance="22810"/><!-- small pitchfork -->
-		<item id="2050" chance="1750"/><!-- torch -->
-		<item id="2050" chance="1750"/><!-- torch -->
+		<item id="2260" chance="21050"/>
+		<!-- blank rune -->
+		<item id="2148" countmax="10" chance="100000"/>
+		<!-- gold coin -->
+		<item id="12469" chance="22810"/>
+		<!-- small pitchfork -->
+		<item id="2050" chance="1750"/>
+		<!-- torch -->
+		<item id="2050" chance="1750"/>
+		<!-- torch -->
 	</loot>
 </monster>

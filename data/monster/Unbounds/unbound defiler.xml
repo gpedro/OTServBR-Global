@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Unbound Defiler" nameDescription="an unbound defiler" race="venom" experience="3700" speed="160" manacost="0">
-	<health now="2650" max="2650"/>
-	<look type="238" corpse="6532"/>
+  <health now="2650" max="2650"/>
+  <look type="238" corpse="6532"/>
   <targetchange interval="5000" chance="8" />
   <strategy attack="100" defense="0" />
   <flags>
@@ -16,7 +16,7 @@
     <flag targetdistance="1" />
     <flag staticattack="90" />
     <flag runonhealth="85" />
-	
+
   </flags>
   <attacks>
     <attack name="melee" interval="2000" skill="50" attack="80" poison="300" />

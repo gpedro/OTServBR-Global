@@ -18,7 +18,7 @@
 		<flag staticattack="90"/>
 		<flag runonhealth="0"/>
 	</flags>
-	
+
 	<attacks>
 		<attack name="melee" interval="2000" skill="150" attack="100"/>
 		<attack name="death" interval="2000" chance="30" range="7" min="-350" max="-900">
@@ -55,14 +55,23 @@
 		<summon name="Canopic Jar" interval="2000" chance="35" max="8"/>
 	</summons>
 	<loot>
-		<item id="2144" countmax="5" chance="100000"/><!-- black pearl -->
-		<item id="7591" countmax="5" chance="50000"/><!-- great health potion -->
-		<item id="7590" countmax="5" chance="50000"/><!-- great mana potion -->
-		<item id="2152" countmax="15" chance="100000"/><!-- platinum coin -->
-		<item id="2142" chance="10000"/><!-- ancient amulet -->
-		<item id="2440" chance="5000"/><!-- daramian waraxe -->
-		<item id="2159" countmax="5" chance="100000"/><!-- scarab coin -->
-		<item id="2540" chance="10000"/><!-- scarab shield -->
-		<item id="2134" chance="10000"/><!-- silver brooch -->
+		<item id="2144" countmax="5" chance="100000"/>
+		<!-- black pearl -->
+		<item id="7591" countmax="5" chance="50000"/>
+		<!-- great health potion -->
+		<item id="7590" countmax="5" chance="50000"/>
+		<!-- great mana potion -->
+		<item id="2152" countmax="15" chance="100000"/>
+		<!-- platinum coin -->
+		<item id="2142" chance="10000"/>
+		<!-- ancient amulet -->
+		<item id="2440" chance="5000"/>
+		<!-- daramian waraxe -->
+		<item id="2159" countmax="5" chance="100000"/>
+		<!-- scarab coin -->
+		<item id="2540" chance="10000"/>
+		<!-- scarab shield -->
+		<item id="2134" chance="10000"/>
+		<!-- silver brooch -->
 	</loot>
 </monster>

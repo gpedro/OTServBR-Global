@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Deathling Spellsinger" nameDescription="a deathling spellsinger" race="blood" experience="6400" speed="190">
 	<health now="7200" max="7200" />
 	<look type="1088" corpse="32549" />
@@ -47,7 +47,7 @@
 		<immunity fire="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="BOQOL°" />
+		<voice sentence="BOQOLï¿½" />
 		<voice sentence="QOL" />
 		<voice sentence="VBOXCL" />
 	</voices>
@@ -56,7 +56,8 @@
 		<item name="gold coin" countmax="60" chance="70000" />
 		<item name="platinum coin" chance="80000" />
 		<item name="life ring" chance="2439" />
-		<item id="2667" chance="3448" /><!-- fish -->
+		<item id="2667" chance="3448" />
+		<!-- fish -->
 		<item name="fish fin" chance="498" />
 		<item name="eye of a deepling" chance="2500" />
 		<item name="deepling staff" chance="2000" />

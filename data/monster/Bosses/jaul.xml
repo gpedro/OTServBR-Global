@@ -5,7 +5,7 @@
 	<targetchange interval="2000" chance="50" />
 	<flags>
 		<flag preyable="0" />
-        <flag rewardboss="1" />
+		<flag rewardboss="1" />
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
@@ -17,7 +17,7 @@
 		<flag targetdistance="0" />
 		<flag runonhealth="60" />
 	</flags>
-	
+
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-2000" poison="870" />
 		<attack name="fire" interval="2200" chance="19" range="7" radius="7" target="1" min="0" max="-1000">
@@ -67,13 +67,21 @@
 		<element deathPercent="-1" />
 	</elements>
 	<loot>
-		<item id="15413" chance="3100" /><!-- ornate shield -->
-		<item id="15408" chance="5333" /><!-- depth galea -->
-		<item id="15404" chance="5000" /><!-- deepling axe -->
-		<item id="15406" chance="25000" unique="1" /><!-- ornate chestplate -->
-		<item id="15407" chance="4000" /><!-- depth lorica -->
-		<item id="15410" chance="2285" /><!-- depth calcei -->
-		<item id="15414" chance="4285" /><!-- ornate mace -->
-		<item id="15412" chance="3142" /><!-- ornate legs -->
+		<item id="15413" chance="3100" />
+		<!-- ornate shield -->
+		<item id="15408" chance="5333" />
+		<!-- depth galea -->
+		<item id="15404" chance="5000" />
+		<!-- deepling axe -->
+		<item id="15406" chance="25000" unique="1" />
+		<!-- ornate chestplate -->
+		<item id="15407" chance="4000" />
+		<!-- depth lorica -->
+		<item id="15410" chance="2285" />
+		<!-- depth calcei -->
+		<item id="15414" chance="4285" />
+		<!-- ornate mace -->
+		<item id="15412" chance="3142" />
+		<!-- ornate legs -->
 	</loot>
 </monster>

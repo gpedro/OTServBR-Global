@@ -3,7 +3,7 @@
 	<health now="65" max="65" />
 	<look type="298" corpse="5972" />
 	<targetchange interval="5000" chance="8" />
-		<flags>
+	<flags>
 		<flag summonable="1" />
 		<flag attackable="1" />
 		<flag hostile="1" />
@@ -28,7 +28,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="28" defense="33" />
-	<elements> 
+	<elements>
 		<element physicalPercent="0" />
 		<element icePercent="0" />
 		<element earthPercent="0" />

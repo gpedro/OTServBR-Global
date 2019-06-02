@@ -31,7 +31,7 @@
 		<element firePercent="0" />
 		<element physicalPercent="0" />
 	</elements>
-		<immunities>
+	<immunities>
 		<immunity paralyze="1" />
 		<immunity invisible="1" />
 	</immunities>

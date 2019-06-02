@@ -29,7 +29,7 @@
 	<voices interval="2000" chance="7">
 		<voice sentence="Zzzzzzt" />
 	</voices>
-	
+
 	<loot>
 	</loot>
 </monster>

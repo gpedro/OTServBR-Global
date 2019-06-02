@@ -47,12 +47,14 @@
 		<item name="mace" chance="5300" />
 		<item name="bone shield" chance="720" />
 		<item name="pick" chance="1100" />
-		<item id="2667" countmax="2" chance="25060" /><!-- fish -->
+		<item id="2667" countmax="2" chance="25060" />
+		<!-- fish -->
 		<item name="northern pike" chance="70" />
 		<item name="rainbow trout" chance="140" />
 		<item name="green perch" chance="70" />
 		<item name="mammoth whopper" chance="160" />
-		<item id="7441" chance="450" /><!-- ice cube -->
+		<item id="7441" chance="450" />
+		<!-- ice cube -->
 		<item name="fireproof horn" chance="390" />
 	</loot>
 </monster>

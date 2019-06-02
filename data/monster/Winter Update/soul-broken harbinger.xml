@@ -45,8 +45,9 @@
 		<voice sentence="I will sing a tune at your grave." />
 	</voices>
 	<loot>
-	    <item name="Platinum Coin" countmin="1" countmax="12" chance="100000" />
-		<item id="34696" countmin="1" countmax="3" chance="15750" /> <!-- Ice Flower -->
+		<item name="Platinum Coin" countmin="1" countmax="12" chance="100000" />
+		<item id="34696" countmin="1" countmax="3" chance="15750" />
+		<!-- Ice Flower -->
 		<item name="Dream Essence Egg" chance="13700" />
 		<item name="Elvish Talisman" chance="4790" />
 		<item name="Knight Legs" chance="4450" />
@@ -56,8 +57,10 @@
 		<item name="Spellbook of Mind Control" chance="2400" />
 		<item name="Crown Shield" chance="1710" />
 		<item name="Wood Cape" chance="1710" />
-		<item id="26185" chance="1370" /> <!-- Ring of Blue Plasma -->
+		<item id="26185" chance="1370" />
+		<!-- Ring of Blue Plasma -->
 		<item name="Tower Shield" chance="680" />
-		<item id="26199" chance="680" /> <!-- Collar of Green Plasma -->
+		<item id="26199" chance="680" />
+		<!-- Collar of Green Plasma -->
 	</loot>
 </monster>

@@ -32,7 +32,7 @@
 			<attribute key="shootEffect" value="energy" />
 			<attribute key="areaEffect" value="hearts" />
 		</attack>
-		<attack name="earth"  interval="2000" chance="15" range="7" target="1" min="-85" max="-135">
+		<attack name="earth" interval="2000" chance="15" range="7" target="1" min="-85" max="-135">
 			<attribute key="areaEffect" value="hearts" />
 		</attack>
 	</attacks>
@@ -54,22 +54,39 @@
 		<voice sentence="I'm just protecting nature's beauty!" />
 	</voices>
 	<loot>
-		<item id="2745" chance="400"/> <!-- blue rose -->
-		<item id="2195" chance="150"/> <!-- boots of haste -->
-		<item id="29002" chance="1200"/> <!-- butterfly ring -->
-		<item id="29000" chance="12000"/> <!-- colourful snail shell -->
-		<item id="28999" chance="12000"/> <!-- dandelion seeds -->
-		<item id="29004" chance="600"/> <!-- dream blossom staff -->
-		<item id="2127" chance="1800"/> <!-- emerald bangle -->
-		<item id="9927" chance="500"/> <!-- flower wreath -->
-		<item id="28996" countmax="2" chance="15000"/> <!-- fresh fruit -->
-		<item id="2148" countmax="110" chance="65000"/> <!-- gold coin -->
-		<item id="7590" chance="3000"/> <!-- great mana potion -->
-		<item id="8873" chance="650"/> <!-- hibiscus dress -->
-		<item id="10219" chance="1000"/> <!-- sacred tree amulet -->
-		<item id="7762" countmax="2" chance="2000"/> <!-- small enchanted amethyst -->
-		<item id="9970" countmax="2" chance="2500"/> <!-- small topaz -->
-		<item id="7589" chance="1000"/> <!-- strong mana potion -->
-		<item id="28995" chance="20000"/> <!-- wild flowers -->
+		<item id="2745" chance="400"/>
+		<!-- blue rose -->
+		<item id="2195" chance="150"/>
+		<!-- boots of haste -->
+		<item id="29002" chance="1200"/>
+		<!-- butterfly ring -->
+		<item id="29000" chance="12000"/>
+		<!-- colourful snail shell -->
+		<item id="28999" chance="12000"/>
+		<!-- dandelion seeds -->
+		<item id="29004" chance="600"/>
+		<!-- dream blossom staff -->
+		<item id="2127" chance="1800"/>
+		<!-- emerald bangle -->
+		<item id="9927" chance="500"/>
+		<!-- flower wreath -->
+		<item id="28996" countmax="2" chance="15000"/>
+		<!-- fresh fruit -->
+		<item id="2148" countmax="110" chance="65000"/>
+		<!-- gold coin -->
+		<item id="7590" chance="3000"/>
+		<!-- great mana potion -->
+		<item id="8873" chance="650"/>
+		<!-- hibiscus dress -->
+		<item id="10219" chance="1000"/>
+		<!-- sacred tree amulet -->
+		<item id="7762" countmax="2" chance="2000"/>
+		<!-- small enchanted amethyst -->
+		<item id="9970" countmax="2" chance="2500"/>
+		<!-- small topaz -->
+		<item id="7589" chance="1000"/>
+		<!-- strong mana potion -->
+		<item id="28995" chance="20000"/>
+		<!-- wild flowers -->
 	</loot>
 </monster>

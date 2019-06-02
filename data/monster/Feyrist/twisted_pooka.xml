@@ -29,7 +29,7 @@
 			<attribute key="shootEffect" value="smallstone" />
 			<attribute key="areaEffect" value="stones" />
 		</attack>
-		<attack name="earthcondition" interval="2000" chance="15" range="3" target="1"  min="-50" max="-100">
+		<attack name="earthcondition" interval="2000" chance="15" range="3" target="1" min="-50" max="-100">
 			<attribute key="areaEffect" value="poison" />
 		</attack>
 		<attack name="drunk" interval="2000" chance="11" length="4" spread="2" target="0" duration="5000">

@@ -16,7 +16,7 @@
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="700"/>
-		
+
 	</flags>
 	<script>
 		<event name="deathDragon"/>
@@ -44,9 +44,9 @@
 		</attack>
 	</attacks>
 	<defenses armor="45" defense="63">
-    <defense name="healing" interval="2000" chance="15" min="200" max="250">
-      <attribute key="areaEffect" value="redshimmer" />
-    </defense>
+		<defense name="healing" interval="2000" chance="15" min="200" max="250">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
 	</defenses>
 	<elements>
 		<element physicalPercent="10"/>
@@ -66,29 +66,53 @@
 		<voice sentence="I SENSE LIFE" yell="1"/>
 	</voices>
 	<loot>
-		<item id="6500" chance="14580"/><!-- demonic essence -->
-		<item id="2148" countmax="198" chance="100000"/><!-- gold coin -->
-		<item id="7591" countmax="3" chance="23740"/><!-- great health potion -->
-		<item id="7590" countmax="3" chance="25660"/><!-- great mana potion -->
-		<item id="5925" chance="14580"/><!-- hardened bone -->
-		<item id="2152" countmax="5" chance="49790"/><!-- platinum coin -->
-		<item id="9971" chance="1630"/><!-- gold ingot -->
-		<item id="11233" chance="32260"/><!-- unholy bone -->
-		<item id="2177" chance="1140"/><!-- life crystal -->
-		<item id="7430" chance="4290"/><!-- dragonbone staff -->
-		<item id="2454" chance="1630"/><!-- war axe -->
-		<item id="7368" countmax="5" chance="24630"/><!-- assassin star -->
-		<item id="2547" countmax="15" chance="15720"/><!-- power bolt -->
-		<item id="2466" chance="850"/><!-- golden armor -->
-		<item id="11355" chance="850"/><!-- spellweaver's robe -->
-		<item id="2476" chance="4930"/><!-- knight armor -->
-		<item id="8885" chance="500"/><!-- divine plate -->
-		<item id="8889" chance="530"/><!-- skullcracker armor -->
-		<item id="2144" countmax="2" chance="21290"/><!-- black pearl -->
-		<item id="2146" countmax="2" chance="27610"/><!-- small sapphire -->
-		<item id="2158" chance="1170"/><!-- blue gem -->
-		<item id="2498" chance="920"/><!-- royal helmet -->
-		<item id="6300" chance="1950"/><!-- death ring -->
-		<item id="2033" chance="5040"/><!-- golden mug -->
+		<item id="6500" chance="14580"/>
+		<!-- demonic essence -->
+		<item id="2148" countmax="198" chance="100000"/>
+		<!-- gold coin -->
+		<item id="7591" countmax="3" chance="23740"/>
+		<!-- great health potion -->
+		<item id="7590" countmax="3" chance="25660"/>
+		<!-- great mana potion -->
+		<item id="5925" chance="14580"/>
+		<!-- hardened bone -->
+		<item id="2152" countmax="5" chance="49790"/>
+		<!-- platinum coin -->
+		<item id="9971" chance="1630"/>
+		<!-- gold ingot -->
+		<item id="11233" chance="32260"/>
+		<!-- unholy bone -->
+		<item id="2177" chance="1140"/>
+		<!-- life crystal -->
+		<item id="7430" chance="4290"/>
+		<!-- dragonbone staff -->
+		<item id="2454" chance="1630"/>
+		<!-- war axe -->
+		<item id="7368" countmax="5" chance="24630"/>
+		<!-- assassin star -->
+		<item id="2547" countmax="15" chance="15720"/>
+		<!-- power bolt -->
+		<item id="2466" chance="850"/>
+		<!-- golden armor -->
+		<item id="11355" chance="850"/>
+		<!-- spellweaver's robe -->
+		<item id="2476" chance="4930"/>
+		<!-- knight armor -->
+		<item id="8885" chance="500"/>
+		<!-- divine plate -->
+		<item id="8889" chance="530"/>
+		<!-- skullcracker armor -->
+		<item id="2144" countmax="2" chance="21290"/>
+		<!-- black pearl -->
+		<item id="2146" countmax="2" chance="27610"/>
+		<!-- small sapphire -->
+		<item id="2158" chance="1170"/>
+		<!-- blue gem -->
+		<item id="2498" chance="920"/>
+		<!-- royal helmet -->
+		<item id="6300" chance="1950"/>
+		<!-- death ring -->
+		<item id="2033" chance="5040"/>
+		<!-- golden mug -->
 	</loot>
 </monster>

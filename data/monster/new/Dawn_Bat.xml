@@ -27,7 +27,7 @@
 	<elements>
 		<element earthPercent="10" />
 	</elements>
-		<immunities>
+	<immunities>
 		<immunity paralyze="1" />
 	</immunities>
 	<loot>

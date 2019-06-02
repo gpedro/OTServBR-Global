@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <monster name="Energuardian of Tales" nameDescription="Energuardian of Tales" race="undead" experience="16200" speed="220" manacost="0">
 	<health now="14000" max="14000" />
-	<look type="1063" body="85" feet="93" head="66" legs="82" addons="3" corpse="32571"  />  
+	<look type="1063" body="85" feet="93" head="66" legs="82" addons="3" corpse="32571" />
 	<targetchange interval="5000" chance="8" />
 	<flags>
 		<flag summonable="0" />
@@ -18,7 +18,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-10" max="-550" />
-	 	<attack name="energy" interval="1000" chance="13" radius="3"   min="-100" max="-555">
+		<attack name="energy" interval="1000" chance="13" radius="3" min="-100" max="-555">
 			<attribute key="areaEffect" value="energyarea" />
 		</attack>
 	</attacks>
@@ -38,9 +38,9 @@
 		<item id="33316" countmax="5" chance="10000" />
 		<item id="33317" countmax="5" chance="10000" />
 		<item name="Small Amethyst" countmax="5" chance="10000" />
- 
+
 		<item name="Flash Arrow" countmax="5" chance="10000" />
-		<item name="Lightning Legs"  chance="250" />
+		<item name="Lightning Legs" chance="250" />
 		<item name="Spellbook of Warding" chance="350" />
 		<item name="Ultimate Health Potion" countmax="5" chance="10000" />
 		<item name="Ultimate Mana Potion" countmax="5" chance="10000" />

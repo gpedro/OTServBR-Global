@@ -39,9 +39,13 @@
 		<voice sentence="Growl!" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="68" chance="100000" /> <!-- gold coin -->
-		<item id="2666" chance="25000" /> <!-- meat -->
-		<item id="2671" chance="25000" /> <!-- ham -->
-		<item id="10608" chance="20000" /> <!-- lion’s mane -->
+		<item id="2148" countmax="68" chance="100000" />
+		<!-- gold coin -->
+		<item id="2666" chance="25000" />
+		<!-- meat -->
+		<item id="2671" chance="25000" />
+		<!-- ham -->
+		<item id="10608" chance="20000" />
+		<!-- lion’s mane -->
 	</loot>
 </monster>

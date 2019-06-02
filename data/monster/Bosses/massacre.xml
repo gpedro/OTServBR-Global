@@ -33,13 +33,13 @@
 			<attribute key="areaEffect" value="fire"/>
 		</defense>
 	</defenses>
-  	<elements>
-    		<element earthPercent="30" />
-    		<element icePercent="10" />
-    		<element deathPercent="-10" />
-    		<element energyPercent="-7" />
-    		<element holyPercent="-3" />
-  	</elements>
+	<elements>
+		<element earthPercent="30" />
+		<element icePercent="10" />
+		<element deathPercent="-10" />
+		<element energyPercent="-7" />
+		<element holyPercent="-3" />
+	</elements>
 	<immunities>
 		<immunity fire="1"/>
 		<immunity lifedrain="1"/>
@@ -54,21 +54,37 @@
 		<voice sentence="GRRRR!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="2231" chance="5880"/><!-- big bone -->
-		<item id="6500" chance="100000"/><!-- demonic essence --> 
-		<item id="7591" chance="5880"/><!-- great health potion -->
-		<item id="7590" chance="5880"/><!-- great mana potion -->
-		<item id="2148" countmax="157" chance="94120"/><!-- gold coin -->
-		<item id="2522" chance="500"/><!-- great shield -->
-		<item id="2666" countmax="9" chance="88240"/><!-- meat -->
-		<item id="5022" countmax="7" chance="82350"/><!-- orichalcum pearl -->
-		<item id="2221" chance="64710"/><!-- old twig -->
-		<item id="2152" countmax="6" chance="58820"/><!-- platinum coin -->
-		<item id="6540" chance="100000"/><!-- massacre's shell piece -->
-		<item id="5944" chance="100000"/><!-- soul orb -->
-		<item id="2452" chance="1000"/><!-- heavy mace -->
-		<item id="7403" chance="900"/><!-- berserker -->
-		<item id="2466" chance="3500"/><!-- golden armor -->
-		<item id="6104" chance="1200"/><!-- jewel case -->
+		<item id="2231" chance="5880"/>
+		<!-- big bone -->
+		<item id="6500" chance="100000"/>
+		<!-- demonic essence -->
+		<item id="7591" chance="5880"/>
+		<!-- great health potion -->
+		<item id="7590" chance="5880"/>
+		<!-- great mana potion -->
+		<item id="2148" countmax="157" chance="94120"/>
+		<!-- gold coin -->
+		<item id="2522" chance="500"/>
+		<!-- great shield -->
+		<item id="2666" countmax="9" chance="88240"/>
+		<!-- meat -->
+		<item id="5022" countmax="7" chance="82350"/>
+		<!-- orichalcum pearl -->
+		<item id="2221" chance="64710"/>
+		<!-- old twig -->
+		<item id="2152" countmax="6" chance="58820"/>
+		<!-- platinum coin -->
+		<item id="6540" chance="100000"/>
+		<!-- massacre's shell piece -->
+		<item id="5944" chance="100000"/>
+		<!-- soul orb -->
+		<item id="2452" chance="1000"/>
+		<!-- heavy mace -->
+		<item id="7403" chance="900"/>
+		<!-- berserker -->
+		<item id="2466" chance="3500"/>
+		<!-- golden armor -->
+		<item id="6104" chance="1200"/>
+		<!-- jewel case -->
 	</loot>
 </monster>

@@ -15,11 +15,11 @@
 		<flag targetdistance="0" />
 	</flags>
 	<attacks>
-	<attack name="melee" interval="2000" min="-0" max="-350" />
-	<attack name="energy" interval="2000" chance="15" range="6" spread="7" length="6" min="-180" max="-220">
-		<attribute key="shootEffect" value="energy" />
-		<attribute key="areaEffect" value="energyarea" />
-	</attack>
+		<attack name="melee" interval="2000" min="-0" max="-350" />
+		<attack name="energy" interval="2000" chance="15" range="6" spread="7" length="6" min="-180" max="-220">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energyarea" />
+		</attack>
 	</attacks>
 	<attack name="lifedrain" interval="2000" chance="15" range="7" min="-200" max="-250" />
 	<defenses armor="35" defense="35">
@@ -38,7 +38,9 @@
 		<voice sentence="Aiiiiiiieeeeeeeh..." />
 	</voices>
 	<loot>
-		<item id="7588" countmax="1" chance="15000" />		<!-- STRONG HEALTH POTION  -->	
-		<item id="2156" countmax="1" chance="6000" />		<!-- RED GEM  -->	
+		<item id="7588" countmax="1" chance="15000" />
+		<!-- STRONG HEALTH POTION  -->
+		<item id="2156" countmax="1" chance="6000" />
+		<!-- RED GEM  -->
 	</loot>
 </monster>

@@ -2,9 +2,9 @@
 <npc name="Tamoril" script="Tamoril.lua" walkinterval="2000">
 	<health now="100" max="100" />
 	<look type="39" />
-<voices>
-<voice text="Grrrrr" interval2="100" margin="1" yell="no" />
-</voices>
+	<voices>
+		<voice text="Grrrrr" interval2="100" margin="1" yell="no" />
+	</voices>
 	<parameters>
 		<parameter key="message_greet" value="I welcome thee, |PLAYERNAME|! I suppose you are looking for a trade in fine jewelery!" />
 		<parameter key="message_farewell" value="Goodbye and please bring more gold next time. I mean, it would be nice to see you again." />

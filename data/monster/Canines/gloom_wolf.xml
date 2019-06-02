@@ -34,9 +34,9 @@
 		<voice sentence="Grrrrrr" />
 	</voices>
 	<loot>
-	    <item name="ham" chance="20120" />
+		<item name="ham" chance="20120" />
 		<item name="wolf tooth chain" chance="2000" />
-	    <item name="gold coin" countmax="48" chance="65000" />
+		<item name="gold coin" countmax="48" chance="65000" />
 		<item name="meat" countmax="2" chance="55000" />
 		<item name="wolf paw" chance="980" />
 	</loot>

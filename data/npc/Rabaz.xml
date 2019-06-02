@@ -3,11 +3,11 @@
 	<health now="100" max="100" />
 	<look type="130" head="39" body="38" legs="1" feet="1" addons="0" />
 	<voices>
-<voice text="Potions, runes, wands and rods, all here in the great Malunga's house." interval2="90" margin="1" yell="no" />
-</voices>
-<parameters>
+		<voice text="Potions, runes, wands and rods, all here in the great Malunga's house." interval2="90" margin="1" yell="no" />
+	</voices>
+	<parameters>
 		<parameter key="keywords" value="magic;" />
-	<parameter key="module_shop" value="1" />
+		<parameter key="module_shop" value="1" />
 		<parameter key="keyword_reply1" value="I'm selling spirit, health and mana potions, runes, wands, rods and spellbooks. If you'd like to see my offers, ask me for a {trade}." />
 		<parameter key="message_greet" value="Hi there and welcome to my little {magic} shop." />
 		<parameter key="message_farewell" value="Yeah, bye." />

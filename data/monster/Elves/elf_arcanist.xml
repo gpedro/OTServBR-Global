@@ -56,7 +56,8 @@
 		<voice sentence="Vihil Ealuel!" />
 	</voices>
 	<loot>
-		<item id="1949" chance="31000" /><!-- scroll -->
+		<item id="1949" chance="31000" />
+		<!-- scroll -->
 		<item name="candlestick" chance="2100" />
 		<item name="gold coin" countmax="47" chance="37000" />
 		<item name="yellow gem" chance="50" />
@@ -65,7 +66,8 @@
 		<item name="elven amulet" chance="1999" />
 		<item name="blank rune" chance="18000" />
 		<item name="arrow" countmax="3" chance="6000" />
-		<item id="2600" chance="1000" /> <!-- inkwell -->
+		<item id="2600" chance="1000" />
+		<!-- inkwell -->
 		<item name="sandals" chance="950" />
 		<item name="green tunic" chance="7000" />
 		<item name="melon" chance="22000" />

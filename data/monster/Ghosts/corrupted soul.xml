@@ -16,7 +16,7 @@
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="0"/>
-		
+
 	</flags>
 	<script>
 		<event name="CorruptedSoul"/>
@@ -37,9 +37,9 @@
 		<defense name="invisible" interval="2000" chance="12" duration="4000">
 			<attribute key="areaEffect" value="poff"/>
 		</defense>
-    		<defense name="healing" interval="2000" chance="16" min="130" max="205">
-      			<attribute key="areaEffect" value="redshimmer" />
-    		</defense>
+		<defense name="healing" interval="2000" chance="16" min="130" max="205">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
 	</defenses>
 	<elements>
 		<element holyPercent="-10"/>

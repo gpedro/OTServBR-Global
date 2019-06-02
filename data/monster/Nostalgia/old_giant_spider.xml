@@ -41,14 +41,23 @@
 		<immunity earth="1" />
 	</immunities>
 	<loot>
-		<item id="2148" countmax="85" chance="100000" /> <!-- gold coin -->
-		<item id="2545" countmax="11" chance="11900" /> <!-- poison arrow -->
-		<item id="2647" chance="7933" /> <!-- plate legs -->
-		<item id="2463" chance="10010" /> <!-- plate armor -->
-		<item id="2457" chance="4945" /> <!-- steel helmet -->
-		<item id="7588" chance="3571" /> <!-- strong health potion -->
-		<item id="2477" chance="850" /> <!-- knight legs -->
-		<item id="2171" chance="280" /> <!-- platinum amulet -->
-		<item id="2476" chance="500" /> <!-- knight armor -->
+		<item id="2148" countmax="85" chance="100000" />
+		<!-- gold coin -->
+		<item id="2545" countmax="11" chance="11900" />
+		<!-- poison arrow -->
+		<item id="2647" chance="7933" />
+		<!-- plate legs -->
+		<item id="2463" chance="10010" />
+		<!-- plate armor -->
+		<item id="2457" chance="4945" />
+		<!-- steel helmet -->
+		<item id="7588" chance="3571" />
+		<!-- strong health potion -->
+		<item id="2477" chance="850" />
+		<!-- knight legs -->
+		<item id="2171" chance="280" />
+		<!-- platinum amulet -->
+		<item id="2476" chance="500" />
+		<!-- knight armor -->
 	</loot>
 </monster>

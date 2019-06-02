@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <npc name="Ghorza" script="Ghorza.lua" walkinterval="2000" floorchange="0">
-  <health now="100" max="100" />
-  <look type="859" head="0" body="0" legs="0" feet="0" addons="0" />
-  <voices>
-    <voice text="Spirits are restless." interval2="120" margin="1" yell="no" />
-    <voice text="Great Hunger is upset." interval2="0" margin="1" yell="no" />
-    <voice text="All water drying up and Vuzrog does nothing!" interval2="120" margin="1" yell="no" />
-  </voices>
-  
-  <parameters>
+	<health now="100" max="100" />
+	<look type="859" head="0" body="0" legs="0" feet="0" addons="0" />
+	<voices>
+		<voice text="Spirits are restless." interval2="120" margin="1" yell="no" />
+		<voice text="Great Hunger is upset." interval2="0" margin="1" yell="no" />
+		<voice text="All water drying up and Vuzrog does nothing!" interval2="120" margin="1" yell="no" />
+	</voices>
+
+	<parameters>
 		<parameter key="module_shop" value="1" />
 		<parameter key="shop_buyable" value="
 			animate dead rune,2316,375;

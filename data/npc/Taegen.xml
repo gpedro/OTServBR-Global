@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <npc name="Taegen" script="Taegen.lua" walkinterval="2000" floorchange="0">
-  <health now="100" max="100" />
-  <look type="980" head="100" body="41" legs="94" feet="41" addons="0" />
-  <parameters>
+	<health now="100" max="100" />
+	<look type="980" head="100" body="41" legs="94" feet="41" addons="0" />
+	<parameters>
 		<parameter key="module_shop" value="1" />
 		<parameter key="shop_buyable" value="
 			arrow,2544,3;
@@ -29,6 +29,6 @@
 		<parameter key="shop_sellable" value=" 
 		    bow,2456,100;
 			crossbow,2455,120;
-			spear,2389,3;" />	
+			spear,2389,3;" />
 	</parameters>
 </npc>

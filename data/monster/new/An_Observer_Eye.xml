@@ -18,9 +18,9 @@
 		<flag runonhealth="0" />
 	</flags>
 	<attacks>
-			<attack name="energy" interval="2000" chance="4" range="3" min="-3000" max="-5000">
-				<attribute key="shootEffect" value="energy" />
-			</attack>
+		<attack name="energy" interval="2000" chance="4" range="3" min="-3000" max="-5000">
+			<attribute key="shootEffect" value="energy" />
+		</attack>
 	</attacks>
 	<defenses armor="55" defense="55">
 	</defenses>

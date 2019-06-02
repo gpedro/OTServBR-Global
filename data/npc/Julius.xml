@@ -2,7 +2,7 @@
 <npc name="Julius" script="Julius.lua" walkinterval="2000" floorchange="0">
 	<health now="100" max="100" />
 	<look type="289" head="114" body="114" legs="114" feet="113" addons="3" />
-<parameters>
+	<parameters>
 		<parameter key="module_shop" value="1" />
 		<parameter key="shop_sellable" value="blood preservation,12405,320;vampire teeth,10602,275;" />
 		<parameter key="message_greet" value="Ohh Welcome |PLAYERNAME|!" />

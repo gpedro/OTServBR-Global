@@ -44,7 +44,8 @@
 		<voice sentence="wobble wobble!" />
 	</voices>
 	<loot>
-		<item id="7760" countmax="2" chance="14620" />  <!--Small Enchanted Ruby-->
+		<item id="7760" countmax="2" chance="14620" />
+		<!--Small Enchanted Ruby-->
 
 	</loot>
 </monster>

@@ -5,8 +5,8 @@
 	<parameters>
 		<parameter key="module_shop" value="1" />
 		<parameter key="message_greet" value="Everyone on this island has gone crazy! Except for me and you, it seems. Let's {trade} like normal people would." />
-   	 	<parameter key="message_farewell" value="Promise to come back sometime, will ya?" />
-   		<parameter key="message_walkaway" value="Hey! Don't leave me alone with all these lunatics!" />
+		<parameter key="message_farewell" value="Promise to come back sometime, will ya?" />
+		<parameter key="message_walkaway" value="Hey! Don't leave me alone with all these lunatics!" />
 		<parameter key="shop_sellable" value="Vial,2006,5;
 Calopteryx Cape,15489,15000;
 Carapace Shield,15491,32000;

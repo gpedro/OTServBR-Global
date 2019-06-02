@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <monster name="Demon Slave" nameDescription="a demon slave" race="fire" experience="0" speed="350" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="35" corpse="5995" />
 	<targetchange interval="5000" chance="8" />
-	<flags> <!-- Todas as Flags -->
+	<flags>		<!-- Todas as Flags -->
 		<flag rewardboss="0" />
 		<flag summonable="0" />
 		<flag attackable="1" />
@@ -33,7 +33,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="28" defense="33" />
-	<elements> <!-- Todos Elementos -->
+	<elements>		<!-- Todos Elementos -->
 		<element physicalPercent="0" />
 		<element icePercent="0" />
 		<element earthPercent="0" />

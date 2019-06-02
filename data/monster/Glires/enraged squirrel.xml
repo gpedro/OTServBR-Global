@@ -4,7 +4,7 @@
 	<look type="274" corpse="7628"/>
 	<targetchange interval="4000" chance="0"/>
 	<flags>
-	    <flag summonable="1"/>
+		<flag summonable="1"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="1"/>
@@ -27,6 +27,7 @@
 		<voice sentence="Chchch"/>
 	</voices>
 	<loot>
-		<item id="7909" chance="2680"/><!-- walnut -->
+		<item id="7909" chance="2680"/>
+		<!-- walnut -->
 	</loot>
 </monster>

@@ -4,7 +4,7 @@
 	<look type="274" corpse="7628"/>
 	<targetchange interval="4000" chance="0"/>
 	<flags>
-	    <flag summonable="1"/>
+		<flag summonable="1"/>
 		<flag attackable="1"/>
 		<flag hostile="0"/>
 		<flag illusionable="1"/>
@@ -24,7 +24,9 @@
 		<voice sentence="Chchch"/>
 	</voices>
 	<loot>
-		<item id="11100" chance="100000"/>	<!-- flask with beaver bait -->
-		<item id="7910" chance="4550"/>		<!-- peanut -->
+		<item id="11100" chance="100000"/>
+		<!-- flask with beaver bait -->
+		<item id="7910" chance="4550"/>
+		<!-- peanut -->
 	</loot>
 </monster>

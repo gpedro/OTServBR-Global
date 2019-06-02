@@ -27,13 +27,21 @@
 	</attacks>
 	<defenses armor="1" defense="2"/>
 	<loot>
-		<item id="23839" countmax="10" chance="9450"/><!-- simple arrows -->
-		<item id="2148" countmax="12" chance="100000"/> <!-- gold coin -->
-		<item id="20103" chance="14500"/> <!-- piece of swampling wood -->
-		<item id="2120" chance="5700"/> <!-- rope -->
-		<item id="2484" chance="4950"/> <!-- studded armor -->
-		<item id="2526" chance="2670"/> <!-- studded shield -->
-		<item id="20102" chance="20250"/> <!-- swampling moss -->
-		<item id="2787" countmax="4" chance="18200"/> <!-- white mushroom -->
+		<item id="23839" countmax="10" chance="9450"/>
+		<!-- simple arrows -->
+		<item id="2148" countmax="12" chance="100000"/>
+		<!-- gold coin -->
+		<item id="20103" chance="14500"/>
+		<!-- piece of swampling wood -->
+		<item id="2120" chance="5700"/>
+		<!-- rope -->
+		<item id="2484" chance="4950"/>
+		<!-- studded armor -->
+		<item id="2526" chance="2670"/>
+		<!-- studded shield -->
+		<item id="20102" chance="20250"/>
+		<!-- swampling moss -->
+		<item id="2787" countmax="4" chance="18200"/>
+		<!-- white mushroom -->
 	</loot>
 </monster>

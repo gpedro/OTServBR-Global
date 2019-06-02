@@ -19,16 +19,16 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-150" />
-		<attack name="lifedrain" interval="2000" chance="50"  length="4" spread="0" min="-150" max="-230">
-		<attribute key="areaEffect" value="SMOKE" />
+		<attack name="lifedrain" interval="2000" chance="50" length="4" spread="0" min="-150" max="-230">
+			<attribute key="areaEffect" value="SMOKE" />
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="50" target="1" radius="3"   min="-120" max="-230">
-		<attribute key="areaEffect" value="EXPLOSIONAREA" />
+		<attack name="lifedrain" interval="2000" chance="50" target="1" radius="3" min="-120" max="-230">
+			<attribute key="areaEffect" value="EXPLOSIONAREA" />
 		</attack>
-		</attacks>
-		<defenses armor="20" defense="20" >
+	</attacks>
+	<defenses armor="20" defense="20">
 		<defense name="healing" interval="2000" chance="10" min="150" max="200">
-		<attribute key="areaEffect" value="blueshimmer" />
+			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
 	<elements>
@@ -37,25 +37,27 @@
 	<immunities>
 		<immunity invisible="1" />
 	</immunities>
-<loot>
-<!--common-->
-<item name="platinum coin" countmin="0" countmax="3" chance="100000" /> 
-<item name="Blue Glass Plate" countmin="0" countmax="3" chance="100000" /> 
-<!--uncommon-->
-<item id="2376" chance="15000" /> <!--sword-->
-<item name="Axe" chance="11550" />    
-<item name="Ice Rapier" chance="13550" />
-<!--semi-rare-->
-<item id="7632" chance="25100" />  <!--Giant Shimmering Pearlz-->
-<item name="Violet Gem" chance="25000" /> 
-<item name="Green Gem" chance="12800" /> 
-<item name="Blue Gem" chance="12000" />
-<item name="Two Handed Sword" chance="30000" />
-<item name="Blue Robe" chance="13050" />
-<item name="Glorious Axe" chance="12800" /> 
-<item name="Green Crystal Shard" chance="12000" />
-<item name="Fur Armor" chance="25000" /> 
-<!--rare-->  
-<item name="Focus Cape" chance="800" /> 
-</loot>
+	<loot>
+		<!--common-->
+		<item name="platinum coin" countmin="0" countmax="3" chance="100000" />
+		<item name="Blue Glass Plate" countmin="0" countmax="3" chance="100000" />
+		<!--uncommon-->
+		<item id="2376" chance="15000" />
+		<!--sword-->
+		<item name="Axe" chance="11550" />
+		<item name="Ice Rapier" chance="13550" />
+		<!--semi-rare-->
+		<item id="7632" chance="25100" />
+		<!--Giant Shimmering Pearlz-->
+		<item name="Violet Gem" chance="25000" />
+		<item name="Green Gem" chance="12800" />
+		<item name="Blue Gem" chance="12000" />
+		<item name="Two Handed Sword" chance="30000" />
+		<item name="Blue Robe" chance="13050" />
+		<item name="Glorious Axe" chance="12800" />
+		<item name="Green Crystal Shard" chance="12000" />
+		<item name="Fur Armor" chance="25000" />
+		<!--rare-->
+		<item name="Focus Cape" chance="800" />
+	</loot>
 </monster>

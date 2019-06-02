@@ -17,7 +17,7 @@
 	</flags>
 	<script>
 		<event name="Splash" />
-    </script>
+	</script>
 	<attacks>
 	</attacks>
 	<defenses armor="35" defense="35">

@@ -34,9 +34,13 @@
 		<element earthPercent="1"/>
 	</elements>
 	<loot>
-		<item id="2152" countmax="5" chance="33000"/> <!-- platinum coin -->
-		<item id="7591" countmax="1" chance="10000"/> <!-- great health potion -->
-		<item id="9977" chance="1500"/> <!-- crystal pedestal -->
-		<item id="23540" chance="1000"/> <!-- metal spats -->
+		<item id="2152" countmax="5" chance="33000"/>
+		<!-- platinum coin -->
+		<item id="7591" countmax="1" chance="10000"/>
+		<!-- great health potion -->
+		<item id="9977" chance="1500"/>
+		<!-- crystal pedestal -->
+		<item id="23540" chance="1000"/>
+		<!-- metal spats -->
 	</loot>
 </monster>

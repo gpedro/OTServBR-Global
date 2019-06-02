@@ -3,7 +3,7 @@
 	<health now="10000" max="10000" />
 	<look type="878" corpse="26048"/>
 	<targetchange interval="5000" chance="8" />
-	<flags> <!-- Todas as Flags -->
+	<flags>		<!-- Todas as Flags -->
 		<flag rewardboss="0" />
 		<flag summonable="0" />
 		<flag attackable="1" />
@@ -33,7 +33,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="28" defense="33" />
-	<elements> <!-- Todos Elementos -->
+	<elements>		<!-- Todos Elementos -->
 		<element physicalPercent="0" />
 		<element icePercent="0" />
 		<element earthPercent="0" />
@@ -45,7 +45,7 @@
 		<element lifedrainPercent="0" />
 		<element manadrainPercent="0" />
 	</elements>
-	<immunities> <!-- Todas Imunidades -->
+	<immunities>		<!-- Todas Imunidades -->
 		<immunity paralyze="0" />
 		<immunity death="0" />
 		<immunity physical="0" />
@@ -59,7 +59,7 @@
 		<immunity manadrain="0" />
 		<immunity drunk="0" />
 		<immunity invisible="0" />
-	</immunities>	
+	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="Yooodelaaahooohooo!" />
 		<voice sentence="Yooodelaaaheeeheee!" />

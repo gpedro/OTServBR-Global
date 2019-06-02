@@ -2,8 +2,8 @@
 <npc name="Bertha" script="Bertha.lua" walkinterval="2000" floorchange="0">
 	<health now="100" max="100" />
 	<look type="140" head="57" body="97" legs="116" feet="99" addons="0" />
-<parameters>
-<parameter key="module_keywords" value="1" />
+	<parameters>
+		<parameter key="module_keywords" value="1" />
 		<parameter key="keywords" value="goods;" />
 		<parameter key="keyword_reply1" value="My inventory of general goods and paperware is large, ask me for a {trade} to take a look." />
 		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|." />

@@ -66,44 +66,83 @@
 		<voice sentence="GRRRRR!" />
 	</voices>
 	<loot>
-		<item id="7426" chance="2000" /> <!-- amber staff -->
-		<item id="7368" countmax="10" chance="25000" /> <!-- assassin star -->
-		<item id="2231" chance="900" /> <!-- big bone -->
-		<item id="2144" countmax="4" chance="9200" /> <!-- black pearl -->
-		<item id="18425" chance="12500" /> <!-- blazing bone -->
-		<item id="6558" chance="20000" /> <!-- concentrated demonic blood -->
-		<item id="6558" chance="20000" /> <!-- concentrated demonic blood -->
-		<item id="6500" chance="20000" /> <!-- demonic essence -->
-		<item id="4873" chance="400" /> <!-- explorer brooch -->
-		<item id="10553" chance="10000" /> <!-- fiery heart -->
-		<item id="2392" chance="7000" /> <!-- fire sword -->
-		<item id="2393" chance="1000" /> <!-- giant sword -->
-		<item id="9971" chance="1500" /> <!-- gold ingot -->
-		<item id="7590" countmax="3" chance="30000" /> <!-- great mana potion -->
-		<item id="8472" chance="20000" /> <!-- great spirit potion -->
-		<item id="2155" chance="1000" /> <!-- green gem -->
-		<item id="5910" chance="5000" /> <!-- green piece of cloth -->
-		<item id="2671" countmax="6" chance="30000" /> <!-- ham -->
-		<item id="5925" chance="10000" /> <!-- hardened bone -->
-		<item id="10554" chance="20000" /> <!-- hellhound slobber -->
-		<item id="2430" chance="7500" /> <!-- knight axe -->
-		<item id="7890" chance="3000" /> <!-- magma amulet -->
-		<item id="7891" chance="1500" /> <!-- magma boots -->
-		<item id="7899" chance="800" /> <!-- magma coat -->
-		<item id="7894" chance="1000" /> <!-- magma legs -->
-		<item id="7900" chance="900" /> <!-- magma monocle -->
-		<item id="7421" chance="1000" /> <!-- onyx flail -->
-		<item id="2152" countmax="7" chance="100000" /> <!-- platinum coin -->
-		<item id="2156" chance="4500" /> <!-- red gem -->
-		<item id="5911" chance="3000" /> <!-- red piece of cloth -->
-		<item id="6553" chance="1000" /> <!-- ruthless axe -->
-		<item id="2149" countmax="3" chance="10000" /> <!-- small emerald -->
-		<item id="2147" countmax="3" chance="10000" />	<!-- small ruby -->
-		<item id="9970" countmax="3" chance="10000" />	<!-- small topaz -->
-		<item id="5944" chance="20000" /> <!-- soul orb -->
-		<item id="8473" chance="16000" /> <!-- ultimate health potion -->
-		<item id="2187" chance="7000" /> <!-- wand of inferno -->
-		<item id="2154" chance="4500" /> <!-- yellow gem -->
-		<item id="5914" chance="6000" /> <!-- yellow piece of cloth -->
+		<item id="7426" chance="2000" />
+		<!-- amber staff -->
+		<item id="7368" countmax="10" chance="25000" />
+		<!-- assassin star -->
+		<item id="2231" chance="900" />
+		<!-- big bone -->
+		<item id="2144" countmax="4" chance="9200" />
+		<!-- black pearl -->
+		<item id="18425" chance="12500" />
+		<!-- blazing bone -->
+		<item id="6558" chance="20000" />
+		<!-- concentrated demonic blood -->
+		<item id="6558" chance="20000" />
+		<!-- concentrated demonic blood -->
+		<item id="6500" chance="20000" />
+		<!-- demonic essence -->
+		<item id="4873" chance="400" />
+		<!-- explorer brooch -->
+		<item id="10553" chance="10000" />
+		<!-- fiery heart -->
+		<item id="2392" chance="7000" />
+		<!-- fire sword -->
+		<item id="2393" chance="1000" />
+		<!-- giant sword -->
+		<item id="9971" chance="1500" />
+		<!-- gold ingot -->
+		<item id="7590" countmax="3" chance="30000" />
+		<!-- great mana potion -->
+		<item id="8472" chance="20000" />
+		<!-- great spirit potion -->
+		<item id="2155" chance="1000" />
+		<!-- green gem -->
+		<item id="5910" chance="5000" />
+		<!-- green piece of cloth -->
+		<item id="2671" countmax="6" chance="30000" />
+		<!-- ham -->
+		<item id="5925" chance="10000" />
+		<!-- hardened bone -->
+		<item id="10554" chance="20000" />
+		<!-- hellhound slobber -->
+		<item id="2430" chance="7500" />
+		<!-- knight axe -->
+		<item id="7890" chance="3000" />
+		<!-- magma amulet -->
+		<item id="7891" chance="1500" />
+		<!-- magma boots -->
+		<item id="7899" chance="800" />
+		<!-- magma coat -->
+		<item id="7894" chance="1000" />
+		<!-- magma legs -->
+		<item id="7900" chance="900" />
+		<!-- magma monocle -->
+		<item id="7421" chance="1000" />
+		<!-- onyx flail -->
+		<item id="2152" countmax="7" chance="100000" />
+		<!-- platinum coin -->
+		<item id="2156" chance="4500" />
+		<!-- red gem -->
+		<item id="5911" chance="3000" />
+		<!-- red piece of cloth -->
+		<item id="6553" chance="1000" />
+		<!-- ruthless axe -->
+		<item id="2149" countmax="3" chance="10000" />
+		<!-- small emerald -->
+		<item id="2147" countmax="3" chance="10000" />
+		<!-- small ruby -->
+		<item id="9970" countmax="3" chance="10000" />
+		<!-- small topaz -->
+		<item id="5944" chance="20000" />
+		<!-- soul orb -->
+		<item id="8473" chance="16000" />
+		<!-- ultimate health potion -->
+		<item id="2187" chance="7000" />
+		<!-- wand of inferno -->
+		<item id="2154" chance="4500" />
+		<!-- yellow gem -->
+		<item id="5914" chance="6000" />
+		<!-- yellow piece of cloth -->
 	</loot>
 </monster>

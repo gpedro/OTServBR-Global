@@ -5,7 +5,7 @@
 	<targetchange interval="2000" chance="20" />
 	<flags>
 		<flag preyable="0" />
-        <flag rewardboss="1" />
+		<flag rewardboss="1" />
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
@@ -18,16 +18,16 @@
 		<flag targetdistance="1" />
 		<flag runonhealth="0" />
 	</flags>
-	
+
 	<attacks>
-		<attack name="melee" interval="200" chance="20" skill="153"  min="0" max="-650"/>
-		<attack name="death" interval="200" chance="20" skill="153"  min="-300" max="-500"/>
+		<attack name="melee" interval="200" chance="20" skill="153" min="0" max="-650"/>
+		<attack name="death" interval="200" chance="20" skill="153" min="-300" max="-500"/>
 		<attack name="death" interval="500" chance="10" length="8" spread="0" target="1" min="-200" max="-300">
-		<attribute key="areaEffect" value="mortarea" />
-    </attack>
-	<attack name="death" interval="500" chance="10" radius="8" min="-250" max="-300">
-      	<attribute key="areaEffect" value="mortarea" />
-    </attack>
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="death" interval="500" chance="10" radius="8" min="-250" max="-300">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
 	</attacks>
 	<defenses armor="55" defense="65">
 		<defense name="healing" interval="3000" chance="35" min="400" max="500">
@@ -56,20 +56,35 @@
 		<voice sentence="LADY TENEBRIS BEGINS TO CHANNEL A POWERFULL SPELL! TAKE COVER!" yell="1" />
 	</voices>
 	<loot>
-		<item id="2152" countmax="7" chance="10000" /> <!-- Platinum Coin -->
-		<item id="2148" countmax="300" chance="10000" /> <!-- gold coin -->
-		<item id="27058" countmax="3" chance="10000" /> <!-- ancient coin -->
-		<item id="7368" countmax="3" chance="10000" /> <!-- Assassin Star -->
-		<item id="7591" countmax="2" chance="10000" /> <!-- great health potion -->
-		<item id="7588" countmax="2" chance="10000" /> <!-- strong health potion -->
-		<item id="18420" countmax="3" chance="2000" /> <!-- red crystal fragment -->
-		<item id="7762" countmax="5" chance="3000" /> <!-- small enchanted amethyst -->
-		<item id="27060" chance="2000" /> <!-- gemmed figurine -->
-		<item id="9971" chance="3000" /> <!-- gold ingot -->
-		<item id="28998" countmax="2" chance="5000" /> <!-- fairy wings -->
-		<item id="7418" chance="3000" /> <!-- nightmare blade -->
-		<item id="22396" chance="800" /> <!-- cluster of solace -->
-		<item id="25377" chance="300" /> <!-- gold token -->
-		<item id="25172" chance="300" /> <!-- silver token -->
+		<item id="2152" countmax="7" chance="10000" />
+		<!-- Platinum Coin -->
+		<item id="2148" countmax="300" chance="10000" />
+		<!-- gold coin -->
+		<item id="27058" countmax="3" chance="10000" />
+		<!-- ancient coin -->
+		<item id="7368" countmax="3" chance="10000" />
+		<!-- Assassin Star -->
+		<item id="7591" countmax="2" chance="10000" />
+		<!-- great health potion -->
+		<item id="7588" countmax="2" chance="10000" />
+		<!-- strong health potion -->
+		<item id="18420" countmax="3" chance="2000" />
+		<!-- red crystal fragment -->
+		<item id="7762" countmax="5" chance="3000" />
+		<!-- small enchanted amethyst -->
+		<item id="27060" chance="2000" />
+		<!-- gemmed figurine -->
+		<item id="9971" chance="3000" />
+		<!-- gold ingot -->
+		<item id="28998" countmax="2" chance="5000" />
+		<!-- fairy wings -->
+		<item id="7418" chance="3000" />
+		<!-- nightmare blade -->
+		<item id="22396" chance="800" />
+		<!-- cluster of solace -->
+		<item id="25377" chance="300" />
+		<!-- gold token -->
+		<item id="25172" chance="300" />
+		<!-- silver token -->
 	</loot>
 </monster>

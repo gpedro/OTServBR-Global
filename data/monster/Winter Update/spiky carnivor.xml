@@ -17,18 +17,18 @@
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 	</flags>
-		<attacks>
+	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-205" />
-		<attack name="lifedrain" interval="2000" chance="50"  length="4" spread="0" min="-150" max="-330">
-		<attribute key="areaEffect" value="SMOKE" />
+		<attack name="lifedrain" interval="2000" chance="50" length="4" spread="0" min="-150" max="-330">
+			<attribute key="areaEffect" value="SMOKE" />
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="50"  length="4" spread="0" min="-150" max="-330">
-		<attribute key="areaEffect" value="POISON" />
+		<attack name="lifedrain" interval="2000" chance="50" length="4" spread="0" min="-150" max="-330">
+			<attribute key="areaEffect" value="POISON" />
 		</attack>
 		<attack name="physical" interval="2000" chance="50" radius="4" min="-150" max="-330">
-		<attribute key="areaEffect" value="GROUNDSHAKER" />
+			<attribute key="areaEffect" value="GROUNDSHAKER" />
 		</attack>
-		</attacks>
+	</attacks>
 	<defenses armor="71" defense="20">
 		<defense name="healing" interval="2000" chance="10" min="150" max="200">
 			<attribute key="areaEffect" value="blueshimmer" />
@@ -42,7 +42,7 @@
 		<immunity paralyze="1" />
 	</immunities>
 	<loot>
-	    <item name="Platinum Coin" countmax="7" chance="2000" />	
+		<item name="Platinum Coin" countmax="7" chance="2000" />
 		<item name="Green Glass Plate" countmax="17" chance="1000" />
 		<item name="Blue Crystal Splinter" chance="1000" />
 		<item name="Brown Crystal Splinter" chance="1000" />
@@ -58,7 +58,7 @@
 		<item name="Warrior Helmet" chance="700" />
 		<item name="Shockwave Amulet" chance="450" />
 		<item name="Terra Mantle" chance="450" />
-        <item name="Buckle" chance="250" />
-        <item name="Doublet" chance="250" />
+		<item name="Buckle" chance="250" />
+		<item name="Doublet" chance="250" />
 	</loot>
 </monster>

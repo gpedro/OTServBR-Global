@@ -17,11 +17,11 @@
 		<flag runonhealth="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-100" />	
+		<attack name="melee" interval="2000" min="0" max="-100" />
 		<attack name="lifedrain" interval="2000" chance="15" range="7" radius="4" target="1" min="-40" max="-100">
 			<attribute key="areaEffect" value="stones" />
 		</attack>
-				<attack name="lifedrain" interval="1000" chance="15" range="4" radius="2"   min="-40" max="-100">
+		<attack name="lifedrain" interval="1000" chance="15" range="4" radius="2" min="-40" max="-100">
 			<attribute key="areaEffect" value="blackspark" />
 		</attack>
 	</attacks>
@@ -40,19 +40,19 @@
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
-			<voices interval="5000" chance="10">
+	<voices interval="5000" chance="10">
 		<voice sentence="knak knak knak!" />
 		<voice sentence="nomnomnom" />
 	</voices>
-	<loot> 
-		<!--Comum-->  
+	<loot>
+		<!--Comum-->
 		<item name="gold coin" countmax="200" chance="4050" />
 		<item name="platinum coin" countmax="3" chance="4050" />
 		<item name="glob of acid slime" countmax="1" chance="4050" />
 		<item id="13757" countmax="5" chance="450" />
- 		<item name="poisonous slime" countmax="3" chance="350" />
- 		<item name="rat cheese" countmax="2" chance="4050" />
- 		<item name="stonerefiner's skull" countmax="200" chance="300" />
+		<item name="poisonous slime" countmax="3" chance="350" />
+		<item name="rat cheese" countmax="2" chance="4050" />
+		<item name="stonerefiner's skull" countmax="200" chance="300" />
 		<item name="Half-Digested Stones" countmax="5" chance="400" />
 	</loot>
 </monster>

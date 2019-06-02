@@ -41,17 +41,29 @@
 		<voice sentence="Kiyosa sipaju!" />
 	</voices>
 	<loot>
-		<item id="21400" chance="200" /> <!-- silver token -->
-		<item id="2148" countmax="20" chance="100000" /> <!-- gold coin -->
-		<item id="2667" countmax="5" chance="100000" /> <!-- fish -->
-		<item id="2143" countmax="1" chance="100000" /> <!-- white pearl -->
-		<item id="5909" chance="100000" /> <!-- white piece of cloth -->
-		<item id="2398" chance="37500" /> <!-- mace-->
-		<item id="21703" unique="1" chance="200" /> <!-- eye of the storm -->
-		<item id="2541" chance="37570" /> <!-- bone shield -->
-		<item id="7381" chance="25050" /> <!-- mammoth whopper -->
-		<item id="7441" chance="62570" /> <!-- ice cube -->
-		<item id="7159" chance="12500" /> <!-- green perch -->
-		<item id="2669" chance="12520" /> <!-- northern pike -->
+		<item id="21400" chance="200" />
+		<!-- silver token -->
+		<item id="2148" countmax="20" chance="100000" />
+		<!-- gold coin -->
+		<item id="2667" countmax="5" chance="100000" />
+		<!-- fish -->
+		<item id="2143" countmax="1" chance="100000" />
+		<!-- white pearl -->
+		<item id="5909" chance="100000" />
+		<!-- white piece of cloth -->
+		<item id="2398" chance="37500" />
+		<!-- mace-->
+		<item id="21703" unique="1" chance="200" />
+		<!-- eye of the storm -->
+		<item id="2541" chance="37570" />
+		<!-- bone shield -->
+		<item id="7381" chance="25050" />
+		<!-- mammoth whopper -->
+		<item id="7441" chance="62570" />
+		<!-- ice cube -->
+		<item id="7159" chance="12500" />
+		<!-- green perch -->
+		<item id="2669" chance="12520" />
+		<!-- northern pike -->
 	</loot>
 </monster>

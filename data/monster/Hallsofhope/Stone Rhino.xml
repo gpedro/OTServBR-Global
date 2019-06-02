@@ -19,18 +19,18 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-280" />
 	</attacks>
-	<defenses armor="10" defense="10" >
-	<defense name="healing" interval="2000" chance="15" min="0" max="250">
+	<defenses armor="10" defense="10">
+		<defense name="healing" interval="2000" chance="15" min="0" max="250">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-  </defenses>
+	</defenses>
 	<elements>
 		<element physicalPercent="20" />
 		<element icePercent="-10" />
 	</elements>
-   <immunities>
-	<immunity invisible="1"/>
-  </immunities>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
 	<voices interval="2000" chance="7">
 		<voice sentence="Snarl!" />
 		<voice sentence="SNIFF!" />
@@ -38,7 +38,7 @@
 	<loot>
 		<item id="5925" chance="50320" />
 		<item id="27056" chance="50320" />
-		<item id="27057"  chance="50320" />
-		<item id="24842"  chance="50320" />
+		<item id="27057" chance="50320" />
+		<item id="24842" chance="50320" />
 	</loot>
 </monster>

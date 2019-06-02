@@ -33,7 +33,7 @@
 		<element holyPercent="25"/>
 		<element earthPercent="1"/>
 	</elements>
-		<immunities>
+	<immunities>
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 		<immunity energy="1" />

@@ -47,7 +47,9 @@
 		<summon name="Weakened Demon" interval="2000" chance="20" />
 	</summons>
 	<loot>
-		<item id="2148" countmax="15" chance="95000" />	<!-- gold coin -->
-		<item id="12435" chance="1000" />				<!-- orc leather -->
+		<item id="2148" countmax="15" chance="95000" />
+		<!-- gold coin -->
+		<item id="12435" chance="1000" />
+		<!-- orc leather -->
 	</loot>
 </monster>

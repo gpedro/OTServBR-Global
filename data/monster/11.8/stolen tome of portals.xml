@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="The Book of Death" nameDescription="The Book of Death" race="undead" experience="0" speed="50" manacost="0">
 	<health now="10000" max="10000" />
-	<look type="1061"  corpse="32454"/>
+	<look type="1061" corpse="32454"/>
 	<targetchange interval="5000" chance="8"/>
 	<flags>
 		<flag summonable="0" />

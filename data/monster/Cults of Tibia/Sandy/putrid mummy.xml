@@ -17,7 +17,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-300"/>
-		<attack name="earth" interval="2000" chance="20" range="1" target="1" min="-100" max="-150" poison="4" >
+		<attack name="earth" interval="2000" chance="20" range="1" target="1" min="-100" max="-150" poison="4">
 			<attribute key="shootEffect" value="earth" />
 			<attribute key="areaEffect" value="carniphila" />
 		</attack>
@@ -27,9 +27,9 @@
 		</attack>
 	</attacks>
 	<defenses armor="40" defense="40">
-	<defense name="healing" interval="2000" chance="10" min="100" max="150">
+		<defense name="healing" interval="2000" chance="10" min="100" max="150">
 			<attribute key="areaEffect" value="blueshimmer" />
-	</defense>
+		</defense>
 	</defenses>
 	<elements>
 		<element firePercent="-20"/>
@@ -47,7 +47,8 @@
 	<loot>
 		<item name="gold coin" countmax="62" chance="60870" />
 		<!-- <item name="broken flask" chance="8950" /> -->
-		<item id="13472" chance="3840" /> <!-- PHARAOH BANNER -->
+		<item id="13472" chance="3840" />
+		<!-- PHARAOH BANNER -->
 		<item name="black pearl" chance="1280" />
 		<item name="little bowl of myrrh" chance="13550" />
 		<item name="single human eye" chance="8950" />

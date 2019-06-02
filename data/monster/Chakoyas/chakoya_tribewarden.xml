@@ -43,7 +43,8 @@
 		<item name="gold coin" countmax="20" chance="79590" />
 		<item name="short sword" chance="4810" />
 		<item name="bone shield" chance="1030" />
-		<item id="2667" chance="19370" /><!-- fish -->
+		<item id="2667" chance="19370" />
+		<!-- fish -->
 		<item name="northern pike" chance="60" />
 		<item name="rainbow trout" chance="50" />
 		<item name="green perch" chance="100" />

@@ -16,7 +16,7 @@
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="1"/>
 		<flag runonhealth="30"/>
-		
+
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="45" attack="20"/>
@@ -54,9 +54,13 @@
 		<voice sentence="Rooawwrr"/>
 	</voices>
 	<loot>
-		<item id="2672" chance="60990"/><!-- dragon ham -->
-		<item id="12413" chance="4310"/><!-- dragon tail -->
-		<item id="2148" countmax="55" chance="67540"/><!-- gold coin -->
-		<item id="7618" chance="400"/><!-- health potion -->
+		<item id="2672" chance="60990"/>
+		<!-- dragon ham -->
+		<item id="12413" chance="4310"/>
+		<!-- dragon tail -->
+		<item id="2148" countmax="55" chance="67540"/>
+		<!-- gold coin -->
+		<item id="7618" chance="400"/>
+		<!-- health potion -->
 	</loot>
 </monster>

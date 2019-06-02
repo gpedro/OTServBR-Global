@@ -60,7 +60,7 @@ gamestoreByModules = true
 -- Quest Sytem
 loadQuestLua = true
 
--- Casting System 
+-- Casting System
 enableLiveCasting = true
 liveCastPort = 7173
 

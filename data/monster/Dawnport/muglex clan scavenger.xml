@@ -11,7 +11,7 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="1"/>
-				<flag isblockable="0" />
+		<flag isblockable="0" />
 		<flag canpushitems="0"/>
 		<flag canpushcreatures="0"/>
 		<flag targetdistance="1"/>
@@ -29,24 +29,35 @@
 		</attack>
 	</attacks>
 	<defenses armor="2" defense="4">
-    		<defense name="healing" interval="2000" chance="1" min="10" max="20">
-      			<attribute key="areaEffect" value="blueshimmer" />
-    		</defense>
+		<defense name="healing" interval="2000" chance="1" min="10" max="20">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
 		<defense name="speed" interval="2000" chance="5" speedchange="140" duration="4000">
 			<attribute key="areaEffect" value="energy"/>
 		</defense>
 	</defenses>
 	<loot>
-		<item id="2230" chance="10820"/><!-- bone -->
-		<item id="2449" chance="11860"/><!-- bone club -->
-		<item id="2379" chance="30410"/><!-- dagger -->
-		<item id="2667" countmax="3" chance="16750"/><!-- fish -->
-		<item id="2148" countmax="12" chance="100000"/><!-- gold coin -->
-		<item id="2467" chance="7990"/><!-- leather armor -->
-		<item id="2461" chance="7990"/><!-- leather helmet -->
-		<item id="2235" chance="9020"/><!-- moldy cheese -->
-		<item id="2406" chance="11860"/><!-- short sword -->
-		<item id="2559" chance="15210"/><!-- small axe -->
-		<item id="1294" countmax="2" chance="22420"/><!-- small stone -->
+		<item id="2230" chance="10820"/>
+		<!-- bone -->
+		<item id="2449" chance="11860"/>
+		<!-- bone club -->
+		<item id="2379" chance="30410"/>
+		<!-- dagger -->
+		<item id="2667" countmax="3" chance="16750"/>
+		<!-- fish -->
+		<item id="2148" countmax="12" chance="100000"/>
+		<!-- gold coin -->
+		<item id="2467" chance="7990"/>
+		<!-- leather armor -->
+		<item id="2461" chance="7990"/>
+		<!-- leather helmet -->
+		<item id="2235" chance="9020"/>
+		<!-- moldy cheese -->
+		<item id="2406" chance="11860"/>
+		<!-- short sword -->
+		<item id="2559" chance="15210"/>
+		<!-- small axe -->
+		<item id="1294" countmax="2" chance="22420"/>
+		<!-- small stone -->
 	</loot>
 </monster>

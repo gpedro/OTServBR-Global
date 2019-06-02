@@ -38,18 +38,31 @@
 		<immunity ice="1" />
 	</immunities>
 	<loot>
-		<item id="2148" countmax="86" chance="100000"/> <!-- gold coin -->
-		<item id="2152" countmax="4" chance="100000"/> <!-- platinum coin -->
-		<item id="7378" countmax="7" chance="50000"/> <!-- royal spear -->
-		<item id="7368" countmax="10" chance="50000"/> <!-- assassin star -->
-		<item id="12447" chance="10000"/> <!-- quara bone -->
-		<item id="2145" countmax="2" chance="8333"/> <!-- small diamond -->
-		<item id="7591" countmax="2" chance="8333"/> <!-- great health potion -->
-		<item id="2178" chance="7692"/> <!-- mind stone -->
-		<item id="2670" chance="4761"/> <!-- shrimp -->
-		<item id="5895" chance="3703"/> <!-- fish fin -->
-		<item id="7383" chance="2777"/> <!-- relic sword -->
-		<item id="7897" chance="1851"/> <!-- glacier robe -->
-		<item id="18413" chance="934"/> <!-- blue crystal shard -->
+		<item id="2148" countmax="86" chance="100000"/>
+		<!-- gold coin -->
+		<item id="2152" countmax="4" chance="100000"/>
+		<!-- platinum coin -->
+		<item id="7378" countmax="7" chance="50000"/>
+		<!-- royal spear -->
+		<item id="7368" countmax="10" chance="50000"/>
+		<!-- assassin star -->
+		<item id="12447" chance="10000"/>
+		<!-- quara bone -->
+		<item id="2145" countmax="2" chance="8333"/>
+		<!-- small diamond -->
+		<item id="7591" countmax="2" chance="8333"/>
+		<!-- great health potion -->
+		<item id="2178" chance="7692"/>
+		<!-- mind stone -->
+		<item id="2670" chance="4761"/>
+		<!-- shrimp -->
+		<item id="5895" chance="3703"/>
+		<!-- fish fin -->
+		<item id="7383" chance="2777"/>
+		<!-- relic sword -->
+		<item id="7897" chance="1851"/>
+		<!-- glacier robe -->
+		<item id="18413" chance="934"/>
+		<!-- blue crystal shard -->
 	</loot>
 </monster>

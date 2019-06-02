@@ -10,7 +10,7 @@
 		<flag illusionable="0" />
 		<flag convinceable="0" />
 		<flag pushable="0" />
-				<flag isblockable="0" />
+		<flag isblockable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
@@ -49,7 +49,9 @@
 		<voice sentence="Your sentence is death!" />
 	</voices>
 	<loot>
-		<item id="2671" countmax="1" chance="60780" />		<!-- ham -->
-		<item id="2666" countmax="1" chance="4920" />		<!-- meat -->
+		<item id="2671" countmax="1" chance="60780" />
+		<!-- ham -->
+		<item id="2666" countmax="1" chance="4920" />
+		<!-- meat -->
 	</loot>
 </monster>

@@ -31,7 +31,8 @@
 		<immunity earth="1" />
 		<immunity invisible="1" />
 	</immunities>
-		<loot>
-		<item id="4860" chance="87460" /> <!-- wooden trash -->
+	<loot>
+		<item id="4860" chance="87460" />
+		<!-- wooden trash -->
 	</loot>
 </monster>

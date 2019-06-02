@@ -19,7 +19,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-200" />
-		<attack name="fire" interval="1000" chance="12" radius="4"   min="90" max="-175">
+		<attack name="fire" interval="1000" chance="12" radius="4" min="90" max="-175">
 			<attribute key="areaEffect" value="firearea" />
 		</attack>
 	</attacks>

@@ -2,7 +2,7 @@
 <monster name="Stolen Knowledge of Healing" nameDescription="Stolen Knowledge of Healing" race="undead" experience="0" speed="50" manacost="0">
 	<health now="10000" max="10000" />
 	<look type="1061" />
-<targetchange interval="5000" chance="8" />
+	<targetchange interval="5000" chance="8" />
 	<flags>
 		<flag summonable="0" />
 		<flag attackable="1" />

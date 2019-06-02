@@ -3,7 +3,7 @@
 	<health now="10000" max="10000" />
 	<look type="947" head="57" body="30" legs="57" feet="57" addons="3" corpse="27733" />
 	<targetchange interval="4000" chance="10" />
-	<flags>		
+	<flags>
 		<flag preyable="0" />
 		<flag summonable="0" />
 		<flag attackable="1" />
@@ -14,7 +14,7 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
-		<flag targetdistance="1" />		 
+		<flag targetdistance="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-400" />
@@ -66,24 +66,42 @@
 		<voice sentence="Chill out!." />
 	</voices>
 	<loot>
-		<item id="27605" chance="100000"/> <!-- dragon blood -->
-		<item id="2672" countmax="3" chance="80000"/> <!-- dragon ham -->
-		<item id="27606" chance="100000"/> <!-- dragon tongue -->
-		<item id="2167" chance="5000"/> <!-- energy ring -->
-		<item id="8887" chance="500"/> <!-- frozen plate -->
-		<item id="18412" chance="2000"/> <!-- glacial rod -->
-		<item id="7888" chance="25000"/> <!-- glacier amulet -->
-		<item id="7902" chance="8000"/> <!-- glacier mask  -->
-		<item id="2148" countmax="130" chance="90000"/> <!-- gold coin -->
-		<item id="2033" chance="3000"/> <!-- golden mug -->
-		<item id="7441" chance="5000"/> <!-- ice cube -->
-		<item id="21696" chance="7000"/> <!-- icicle bow -->
-		<item id="7409" chance="100"/> <!-- northern star -->
-		<item id="2152" countmax="3" chance=""/> <!-- platinum coin -->
-		<item id="21697" chance="7000"/> <!-- runic ice shield -->
-		<item id="27607" chance="100000"/> <!-- scale of Gelidrazah -->
-		<item id="7290" chance="30000"/> <!-- shard -->
-		<item id="2146" chance="10000"/> <!-- small sapphire -->
+		<item id="27605" chance="100000"/>
+		<!-- dragon blood -->
+		<item id="2672" countmax="3" chance="80000"/>
+		<!-- dragon ham -->
+		<item id="27606" chance="100000"/>
+		<!-- dragon tongue -->
+		<item id="2167" chance="5000"/>
+		<!-- energy ring -->
+		<item id="8887" chance="500"/>
+		<!-- frozen plate -->
+		<item id="18412" chance="2000"/>
+		<!-- glacial rod -->
+		<item id="7888" chance="25000"/>
+		<!-- glacier amulet -->
+		<item id="7902" chance="8000"/>
+		<!-- glacier mask  -->
+		<item id="2148" countmax="130" chance="90000"/>
+		<!-- gold coin -->
+		<item id="2033" chance="3000"/>
+		<!-- golden mug -->
+		<item id="7441" chance="5000"/>
+		<!-- ice cube -->
+		<item id="21696" chance="7000"/>
+		<!-- icicle bow -->
+		<item id="7409" chance="100"/>
+		<!-- northern star -->
+		<item id="2152" countmax="3" chance=""/>
+		<!-- platinum coin -->
+		<item id="21697" chance="7000"/>
+		<!-- runic ice shield -->
+		<item id="27607" chance="100000"/>
+		<!-- scale of Gelidrazah -->
+		<item id="7290" chance="30000"/>
+		<!-- shard -->
+		<item id="2146" chance="10000"/>
+		<!-- small sapphire -->
 	</loot>
 </monster>
 

@@ -8,7 +8,7 @@ local Items = {
     },
     [24716] = 24790
 }
- 
+
 function onUse(cid, item, fromPosition, itemEx, toPosition)
     local player = Player(cid)
 

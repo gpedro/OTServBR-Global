@@ -41,10 +41,12 @@
 		<voice sentence="Show that you are a worthy opponent." />
 	</voices>
 	<loot>
-		<item id="2050" chance="6680" /><!-- torch -->
+		<item id="2050" chance="6680" />
+		<!-- torch -->
 		<item name="gold coin" countmax="30" chance="8240" />
 		<item name="life ring" chance="300" />
-		<item id="2229" chance="3000" /><!-- skull -->
+		<item id="2229" chance="3000" />
+		<!-- skull -->
 		<item name="knife" chance="1067" />
 		<item name="brass helmet" chance="2200" />
 		<item name="viking helmet" chance="860" />
