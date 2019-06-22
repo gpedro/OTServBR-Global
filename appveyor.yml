@@ -32,7 +32,7 @@ build:
   parallel: true
   
 test_script:
-  - %LUACHECKBIN% --no-global --no-unused data/**.lua 
+  - ps: %LUACHECKBIN% --no-global --no-unused data/**.lua
 
 cache:
   - tfs-sdk-3.2 -> appveyor.yml
