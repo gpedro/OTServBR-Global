@@ -13,8 +13,10 @@ matrix:
 
 only_commits:
   files:
+    - data/
     - src/
     - vc14/
+    - cmake/
     - appveyor.yml
 
 environment:
@@ -30,7 +32,7 @@ build:
   parallel: true
   
 test_script:
-  %LUACHECKBIN% --no-global --no-unused data/**.lua 
+  - %LUACHECKBIN% --no-global --no-unused data/**.lua 
 
 cache:
   - tfs-sdk-3.2 -> appveyor.yml
