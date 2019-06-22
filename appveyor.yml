@@ -24,7 +24,6 @@ environment:
 
 install:
   - ps: if (-not (Test-Path luacheck.exe)) { Start-FileDownload https://github.com/mpeterv/luacheck/releases/download/0.23.0/luacheck.exe; }
-  - set LUACHECKBIN=%CD%\luacheck.exe
   - ps: if (-not (Test-Path tfs-sdk-3.2)) { Start-FileDownload https://static.otland.net/dl/tfs-sdk-3.2.zip; 7z x tfs-sdk-3.2.zip }
   - set TFSSDKDir=%CD%\tfs-sdk-3.2
 
@@ -32,7 +31,7 @@ build:
   parallel: true
   
 test_script:
-  - ps: %LUACHECKBIN% --no-global --no-unused data/**.lua
+  - luacheck.exe --no-global --no-unused data/**.lua
 
 cache:
   - tfs-sdk-3.2 -> appveyor.yml
