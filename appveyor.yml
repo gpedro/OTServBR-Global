@@ -30,7 +30,7 @@ install:
 build:
   parallel: true
   
-test_script:
+before_build:
   - luacheck.exe --no-global --no-unused-args data/*.lua
 
 cache:
