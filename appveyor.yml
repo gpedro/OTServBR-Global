@@ -31,7 +31,7 @@ build:
   parallel: true
   
 test_script:
-  - luacheck.exe --no-global --no-unused data/**.lua
+  - luacheck.exe --no-global --no-unused-args data/*.lua
 
 cache:
   - tfs-sdk-3.2 -> appveyor.yml
